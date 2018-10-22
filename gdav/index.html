@@ -7,18 +7,19 @@
 <body>
 <!--
 - git add fonts
+- add schema
 - playtest #2
 - proposer sur http://troplongpaslu.fr/proposer-un-jeu-de-role-court/ & forum casus
 -->
-<h1 id="ameres-victoires-%26-glorieuses-defaites">Ameres victoires &amp; Glorieuses defaites</h1>
-<figure>
-  <img src="a_new_kind_of_enemy_by_istayfrosti-d6qhogh.jpg">
-  <figcaption><a href="https://www.deviantart.com/istayfrosti/art/A-New-Kind-Of-Enemy-407291921">A New Kind Of Enemy by istayfrosti</a> - License <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></figcaption>
-</figure>
-<div class="rules">
+<h1 id="am%C3%A8res-victoires-%26-glorieuses-defaites">Amères victoires &amp; Glorieuses defaites</h1>
+<div class="rules block-centered limited-width">
 <p>Les joueurs incarnent les héros d’une saga épique et tragique, au dernier chapitre de leur périple.
 Ils ont traversé bien des aventures ensembles, et arrivent au terme de leurs quêtes respectives,
 où ils devront faire des choix cornéliens pour y apporter une conclusion.</p>
+<figure class="block-centered">
+  <img src="a_new_kind_of_enemy_by_istayfrosti-d6qhogh.jpg">
+  <figcaption><a href="https://www.deviantart.com/istayfrosti/art/A-New-Kind-Of-Enemy-407291921">A New Kind Of Enemy by istayfrosti</a> - License <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></figcaption>
+</figure>
 <h3 id="mat%C3%A9riel-requis">Matériel requis</h3>
 <ul>
 <li>ce jeu imprimé (ou au moins la table de résolution)</li>
@@ -405,11 +406,13 @@ On effetue alors le ou les jets aléatoires requis pour déterminés les Héros 
 <p>Ensuite, en commençant par ces Héros,
 chaque joueur prend alors la parole pour décrire ce qu’il advient de son Héro au cours de cette scène et après,
 en complétant ce que le précédent vient de décrire.</p>
-<img src="bone-1299051_1280.png">
+<img class="block-centered small-img" src="bone-1299051_1280.png">
 </div>
 <div class="on-new-page">
+<div class="block-centered limited-width">
 <h2 id="table-de-r%C3%A9solution">Table de résolution</h2>
-<p>Entre parenthèses et en vert est indiqué QUI a la parole.</p>
+<p><span class="speaks">Entre parenthèses et en vert</span> est indiqué QUI a la parole.</p>
+</div>
 <div class="column resolution-table">
     <div class="column table-row">
         <h3 class="table-row-name">L'action est-elle réussie ?<span class="speaks">(MJ)</span></h3>
@@ -703,7 +706,7 @@ en complétant ce que le précédent vient de décrire.</p>
 }
 
 .hero-sheet {
-    width: 60rem;
+    width: 56rem;
     font-family: 'PoisonHope-Regular';
     font-size: 1.5rem;
     border: 1px solid #aaa;
@@ -711,7 +714,7 @@ en complétant ce que le précédent vient de décrire.</p>
     padding: .5rem 1rem;
 }
 .hero-sheet p { margin-bottom: 0; font-size: 1.3rem; }
-.hero-sheet ul { columns: 2; }
+.hero-sheet ul { columns: 2; margin: 0; padding: 0; }
 .hero-sheet dd, .hero-sheet li { border: 1px solid #eee; }
 .hero-sheet dd { margin: 1.5rem 0 .3rem; }
 .hero-sheet li { margin: .3rem 0; list-style-type: none; height: 2rem; }
@@ -743,7 +746,7 @@ en complétant ce que le précédent vient de décrire.</p>
 }
 
 .hero-sheet {
-    width: 60rem;
+    width: 56rem;
     font-family: 'PoisonHope-Regular';
     font-size: 1.5rem;
     border: 1px solid #aaa;
@@ -751,124 +754,93 @@ en complétant ce que le précédent vient de décrire.</p>
     padding: .5rem 1rem;
 }
 .hero-sheet p { margin-bottom: 0; font-size: 1.3rem; }
-.hero-sheet ul { columns: 2; }
-.hero-sheet dd, .hero-sheet li { border: 1px solid #eee; }
-.hero-sheet dd { margin: 1.5rem 0 .3rem; }
-.hero-sheet li { margin: .3rem 0; list-style-type: none; height: 2rem; }
-</style>
-<dl class="hero-sheet">
-    <dt>Nom du hero</dt><dd></dd>
-    <dt>Objectif</dt><dd></dd>
-    <p>Attaches</p><ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    </ul>
-    <p>Atouts</p><ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    </ul>
-    <p>Prouesses héroïques</p><ul>
-    <li></li>
-    <li></li>
-    </ul>
-</dl>
-<style>
-@font-face {
-  font-family: 'PoisonHope-Regular';
-  src: url('fonts/PoisonHope-Regular.ttf') format('truetype');
-}
-
-.hero-sheet {
-    width: 60rem;
-    font-family: 'PoisonHope-Regular';
-    font-size: 1.5rem;
-    border: 1px solid #aaa;
-    margin: 1rem auto;
-    padding: .5rem 1rem;
-}
-.hero-sheet p { margin-bottom: 0; font-size: 1.3rem; }
-.hero-sheet ul { columns: 2; }
-.hero-sheet dd, .hero-sheet li { border: 1px solid #eee; }
-.hero-sheet dd { margin: 1.5rem 0 .3rem; }
-.hero-sheet li { margin: .3rem 0; list-style-type: none; height: 2rem; }
-</style>
-<dl class="hero-sheet">
-    <dt>Nom du hero</dt><dd></dd>
-    <dt>Objectif</dt><dd></dd>
-    <p>Attaches</p><ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    </ul>
-    <p>Atouts</p><ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    </ul>
-    <p>Prouesses héroïques</p><ul>
-    <li></li>
-    <li></li>
-    </ul>
-</dl>
-<style>
-@font-face {
-  font-family: 'PoisonHope-Regular';
-  src: url('fonts/PoisonHope-Regular.ttf') format('truetype');
-}
-
-.hero-sheet {
-    width: 60rem;
-    font-family: 'PoisonHope-Regular';
-    font-size: 1.5rem;
-    border: 1px solid #aaa;
-    margin: 1rem auto;
-    padding: .5rem 1rem;
-}
-.hero-sheet p { margin-bottom: 0; font-size: 1.3rem; }
-.hero-sheet ul { columns: 2; }
+.hero-sheet ul { columns: 2; margin: 0; padding: 0; }
 .hero-sheet dd, .hero-sheet li { border: 1px solid #eee; }
 .hero-sheet dd { margin: 1.5rem 0 .3rem; }
 .hero-sheet li { margin: .3rem 0; list-style-type: none; height: 2rem; }
 </style>
 </div>
-<div class="on-new-page headless-table attaches">
-<table>
-<thead>
-<tr>
-<th>(attache)</th>
-<th>(attache)</th>
-<th>(attache)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>(attache)</td>
-<td>(attache)</td>
-<td>(attache)</td>
-</tr>
-<tr>
-<td>(attache)</td>
-<td>(attache)</td>
-<td>(attache)</td>
-</tr>
-<tr>
-<td>(attache)</td>
-<td>(attache)</td>
-<td>(attache)</td>
-</tr>
-<tr>
-<td>(attache)</td>
-<td>(attache)</td>
-<td>(attache)</td>
-</tr>
-</tbody>
-</table>
+<div class="on-new-page">
+<dl class="hero-sheet">
+    <dt>Nom du hero</dt><dd></dd>
+    <dt>Objectif</dt><dd></dd>
+    <p>Attaches</p><ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    <p>Atouts</p><ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    <p>Prouesses héroïques</p><ul>
+    <li></li>
+    <li></li>
+    </ul>
+</dl>
+<style>
+@font-face {
+  font-family: 'PoisonHope-Regular';
+  src: url('fonts/PoisonHope-Regular.ttf') format('truetype');
+}
+
+.hero-sheet {
+    width: 56rem;
+    font-family: 'PoisonHope-Regular';
+    font-size: 1.5rem;
+    border: 1px solid #aaa;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+}
+.hero-sheet p { margin-bottom: 0; font-size: 1.3rem; }
+.hero-sheet ul { columns: 2; margin: 0; padding: 0; }
+.hero-sheet dd, .hero-sheet li { border: 1px solid #eee; }
+.hero-sheet dd { margin: 1.5rem 0 .3rem; }
+.hero-sheet li { margin: .3rem 0; list-style-type: none; height: 2rem; }
+</style>
+<dl class="hero-sheet">
+    <dt>Nom du hero</dt><dd></dd>
+    <dt>Objectif</dt><dd></dd>
+    <p>Attaches</p><ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    <p>Atouts</p><ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    <p>Prouesses héroïques</p><ul>
+    <li></li>
+    <li></li>
+    </ul>
+</dl>
+<style>
+@font-face {
+  font-family: 'PoisonHope-Regular';
+  src: url('fonts/PoisonHope-Regular.ttf') format('truetype');
+}
+
+.hero-sheet {
+    width: 56rem;
+    font-family: 'PoisonHope-Regular';
+    font-size: 1.5rem;
+    border: 1px solid #aaa;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+}
+.hero-sheet p { margin-bottom: 0; font-size: 1.3rem; }
+.hero-sheet ul { columns: 2; margin: 0; padding: 0; }
+.hero-sheet dd, .hero-sheet li { border: 1px solid #eee; }
+.hero-sheet dd { margin: 1.5rem 0 .3rem; }
+.hero-sheet li { margin: .3rem 0; list-style-type: none; height: 2rem; }
+</style>
 </div>
 <div class="on-new-page rules">
 <h2 id="un-univers-cr%C3%A9%C3%A9-en-90min">Un univers créé en 90min</h2>
@@ -1008,13 +980,13 @@ body { font-size: .8rem; line-height: 1.6; font-family: sans-serif; color: #444;
 h2, h3 { line-height: 1.2; font-family: 'MaryJaneMeade'; }
 h1 { line-height: 1.2; font-family: 'PoisonHope-Regular'; text-align: center; }
 blockquote { font-style: italic; border-left: 2px solid #eee; padding-left: 1rem; }
-img { display: block; margin: 0 auto; max-width: 100%; }
+img { width: 100%; }
 @media print { .on-new-page { page-break-before: always; } }
 
-figure { max-width: 40rem; margin: 0 auto; }
-figcaption { text-align: center; }
-.rules { max-width: 40rem; margin: 40px auto; }
-.rules img { max-width: 10rem; margin: 0 auto; }
+.block-centered { display: block; margin: 0 auto; }
+.limited-width { max-width: 40rem; margin: 40px auto; }
+.small-img { max-width: 10rem; }
+figcaption { text-align: right; font-size: .6rem; }
 
 .rules table { border-spacing: 0; border-collapse: collapse; page-break-inside: avoid; }
 .rules table p { margin: 0; }
@@ -1045,36 +1017,6 @@ figcaption { text-align: center; }
     color: white;
     font-size: .8rem;
     font-weight: bold;
-}
-
-/* hs = heroes summary */
-.hs table {
-    width: 100%;
-    border-spacing: 0; border-collapse: collapse; border-style: hidden;
-    page-break-inside: avoid;
-    font-size: 1rem;
-    font-family: 'MaryJaneMeade';
-    text-align: center;
-}
-.hs tr { height: 4rem; }
-.hs th, .hs td {
-    width: 40%;
-    border: 1px solid black;
-}
-.hs th:first-of-type, .hs td:first-of-type { width: 20%; }
-
-.attaches table {
-    width: 100%;
-    border-spacing: 0; border-collapse: collapse; border-style: hidden;
-    page-break-inside: avoid;
-    font-size: 1rem;
-    font-style: italic;
-}
-.attaches tr { height: 20rem; }
-.attaches th, .attaches td {
-    width: 33%; padding: 1rem;
-    border: 1px solid black;
-    vertical-align: top; text-align: right;
 }
 </style>
 </body>
