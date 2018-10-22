@@ -5,8 +5,6 @@ cache:
     - "node_modules"
 
 script:
-- echo "${GITHUB_TOKEN:0:20}"
-- echo "${GITHUB_TOKEN:20:40}"
 - npm install markdown-it markdown-it-anchor markdown-it-table-of-contents markdown-it-container markdown-it-include markdown-it-multimd-table minimist
 - wget https://raw.githubusercontent.com/Lucas-C/dotfiles_and_notes/master/bin/md2html.js
 - cd gdav && node ../md2html.js gdav.md > index.html
@@ -14,7 +12,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
   on:
     branch: master
