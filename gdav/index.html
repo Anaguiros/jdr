@@ -6,33 +6,36 @@
 </head>
 <body>
 <!--
-- landscape layout ?
 - playtest #3
+- make a 2 columns PDF -> "page-break-inside: avoid" does not work on images...
 - demander conseils mise en page à tante Murielle
-- proposer sur http://troplongpaslu.fr/proposer-un-jeu-de-role-court/ & forum casus & http://lesateliersimaginaires.com/forum/index.php & http://www.silentdrift.net/forum/index.php & http://www.subasylum.com/Antoniobay/viewforum.php
+- proposer sur forum casus & http://lesateliersimaginaires.com/forum/index.php & http://www.silentdrift.net/forum/index.php & http://www.subasylum.com/Antoniobay/viewforum.php
 - envisager publi & print-on-demande sur lulu, DriveThruRPG...
 - English version -> post on RPGDesign, http://story-games.com
-- mise en page: checkboxes customisés, auto-section avec markdown-it-header-sections, utilisation de MasonryJS ?
 
 # Playtest n°2: japon féodal fantastique
 - Hosiano - Découvir la contrée cachée de Blaitero - Attaches: village, défendre les faibles (pas employé) - Atouts: dexterité, stratège
 - Shigeru - Lever malédiction qui pèse sur son village - Attaches: village, ancien disciple - Atouts: bushido, amulette magique
 - Redishiro - Tuer le général Kemposhi - Attaches: sa femme disparue, legacy of his master - Atouts: sortilège de changement d'apparence, pouvoir de posession d'un corps
 -->
-<h1 id="ameres-victoires-%26-glorieuses-defaites">Ameres Victoires &amp; Glorieuses Defaites</h1>
+<section id="ameres-victoires-%26-glorieuses-defaites">
+<h1>Ameres Victoires &amp; Glorieuses Defaites</h1>
 <div class="block-centered limited-width rules">
 <p>Dans ce court jeu de rôle, les joueurs incarnent les héros d’une saga épique et tragique, au dernier chapitre de leur périple.
 Ils ont traversé bien des aventures ensembles, et arrivent au terme de leurs quêtes respectives,
 où ils devront faire des choix cornéliens pour y apporter une conclusion.</p>
 <img class="block-centered" alt="Stormchaser Proving Grounds" src="stormchaser_proving_grounds_by_halycon450_dav4fd5-fullview.jpg">
-<h3 id="jeu-de-r%C3%B4le-%3F">Jeu de rôle ?</h3>
+<section id="jeu-de-r%C3%B4le-%3F">
+<h3>Jeu de rôle ?</h3>
 <p>Si vous ne connaissez pas encore ce type de jeu, commencez par lire <a href="http://www.ffjdr.org/ce-devez-savoir-jeu-role/definitions-du-jeu-role/">la définition du JdR de la FFJdR</a>.
 Voici quelques abréviations employées par la suite :</p>
 <ul>
 <li>MJ = Meneur de Jeu</li>
 <li>PJ = Personnage d’un Joueur</li>
 </ul>
-<h3 id="ce-dont-vous-aurez-besoin">Ce dont vous aurez besoin</h3>
+</section>
+<section id="ce-dont-vous-aurez-besoin">
+<h3>Ce dont vous aurez besoin</h3>
 <ul>
 <li>un MJ + 2 à 4 autre joueurs</li>
 <li>entre 2h et 4h devant vous</li>
@@ -41,7 +44,9 @@ Voici quelques abréviations employées par la suite :</p>
 <li>des pions quelconques qui serviront de <strong>Pierres du Destin</strong> (autant que de joueurs)</li>
 <li>des crayons</li>
 </ul>
-<h2 id="d%C3%A9roulement-de-la-partie">Déroulement de la partie</h2>
+</section>
+<section id="d%C3%A9roulement-de-la-partie">
+<h2>Déroulement de la partie</h2>
 <img id="game-flow-toc" class="block-centered" alt="Schéma reprennant les grandes étapes d'une partie" src="gdav-flow.png" usemap="#toc">
 <map name="toc">
   <area shape="circle" coords="81,82,80" href="#choix-dun-univers" alt="Choix d'un univers"/>
@@ -52,7 +57,8 @@ Voici quelques abréviations employées par la suite :</p>
   <area shape="circle" coords="81,288,80" href="#scene-finale" alt="Scène finale"/>
 </map>
 <p>Les termes avec des majuscules correspondent à des éléments de la mécanique de jeu.</p>
-<h3 id="choix-d%E2%80%99un-univers">Choix d’un univers</h3>
+<section id="choix-d%E2%80%99un-univers">
+<h3>Choix d’un univers</h3>
 <div class="float-right variant">
 <p>Vous pouvez aussi décider de créer un univers collectivement en début de partie !</p>
 <p>Vous trouverez à la fin de ce document un exemple d’univers créé ainsi durant une partie de <em>playtest</em>,
@@ -62,7 +68,9 @@ avec quelques indications sur la manière dont on s’y est pris.</p>
 Il peut s’agir par exemple d’un univers existant d’oeuvre de fiction.
 Il leur donne rapidement quelques éléments de la géographie, de l’histoire et de la mythologie,
 de la technologie, des croyances, des factions, etc. de cet univers.</p>
-<h3 id="cr%C3%A9ation-des-h%C3%A9ros-%2F-h%C3%A9ro%C3%AFnes">Création des Héros / Héroïnes</h3>
+</section>
+<section id="cr%C3%A9ation-des-h%C3%A9ros-%2F-h%C3%A9ro%C3%AFnes">
+<h3>Création des Héros / Héroïnes</h3>
 <p>Chaque joueur inscrit sur sa <a href="#hero-sheet">feuille de personnage</a> :</p>
 <ul>
 <li>son <strong>nom</strong></li>
@@ -157,7 +165,9 @@ En lien avec sa **Pierre Angulaire**, chaque joueur doit lister **deux choses qu
 </table>
 </div>
 </div>
-<h3 id="prouesses-h%C3%A9ro%C3%AFques">Prouesses héroïques</h3>
+</section>
+<section id="prouesses-h%C3%A9ro%C3%AFques">
+<h3>Prouesses héroïques</h3>
 <img class="block-centered medium-img" alt="Royal Mistwalker" src="royal_mistwalker_by_halycon450_dcgai1u-fullview.png">
 <p>Votre Héro peut déclencher cet évênement une seule et unique fois dans la partie. A lui de le décrire avec moults effets spéciaux.
 Pour déterminer de quoi il s’agit, lancez <em>1d6</em> et reportez-vous à la liste suivante, en ignorant les choix déjà pris précédement :</p>
@@ -221,7 +231,9 @@ A vous de décrire comment / pourquoi cela arrive.</p>
 </tbody>
 </table>
 </div>
-<h3 id="r%C3%A9sum%C3%A9-de-la-saga">Résumé de la saga</h3>
+</section>
+<section id="r%C3%A9sum%C3%A9-de-la-saga">
+<h3>Résumé de la saga</h3>
 <p>La partie commence alors que les Héros sont regroupés autour d’un feu.
 Un personnage ne payant pas de mine s’approche d’eux, curieux. Il a entendu parler de leurs exploits.</p>
 <p>Ce personnage est le <strong>PMJ</strong>, le personnage du MJ, qui a un rôle uniquement dans cette phase d’introduction,
@@ -236,7 +248,9 @@ Les joueurs sont également encouragés à se poser des questions entre eux pour
 <p>Tu te souviens, peu après qu’on se soit rencontrés, lorsque ce capitaine de la garde t’as défié en duel ?</p>
 </blockquote>
 <img class="block-centered" alt="Coalescence of Immemorial Nightmares - Yodth" src="coalescence_of_immemorial_nightmares_yodth_by_halycon450_dcb6cet-fullview.png">
-<h3 id="flashbacks">Flashbacks</h3>
+</section>
+<section id="flashbacks">
+<h3>Flashbacks</h3>
 <p>Les <strong>Flashbacks</strong> sont l’occasion pour les joueurs de décrire les aventures passées de leurs Héros,
 et notamment de définir leus <strong>Atouts</strong>.</p>
 <p>Une question est posée à un joueur sur le passé de son Héro.
@@ -327,7 +341,9 @@ Cet Atout a une histoire et a tant de valeur eux yeux du Héro que le perdre ser
 </tbody>
 </table>
 </div>
-<h3 id="le-pacte">Le Pacte</h3>
+</section>
+<section id="le-pacte">
+<h3>Le Pacte</h3>
 <div class="float-right variant">
 <p>Dans les exemples fournis, les étapes du Pacte sont toutes identiques.
 On peut aussi décomposer la quête en étapes distinctes.
@@ -440,7 +456,9 @@ en échange de quoi ils obtiendront chacun ce qu’ils cherchent.</p>
 Ces pions symbolisent les objectifs à atteindre pour accomplir le Pacte.</p>
 <p>A partir de ce moment, vous pouvez d’or et déjà vous creuser la tête sur comment vous allez, lors de la Scène finale,
 donner l’opportunité à tous les Héros d’accomplir leurs Objectifs en un seul lieu…</p>
-<h3 id="jets-de-d%C3%A9s">Jets de dés</h3>
+</section>
+<section id="jets-de-d%C3%A9s">
+<h3>Jets de dés</h3>
 <p>Lorsqu’un Héro tente d’accomplir une action risquée, le joueur lance <strong>3d6 blancs</strong>.</p>
 <p>S’il emploie certains de ses <strong>Atouts</strong> pour accomplir cette action,
 il ajoute <strong>1d6 par Atout employé</strong>.</p>
@@ -469,7 +487,9 @@ diversion, attaque combinée, bluff… le joueur explique quelle synergie est cr
 Le MJ explique ce qui lui arrive.</li>
 <li>enfin, le joueur peut obtenir une <strong>Prouesse Héroïque</strong>.</li>
 </ul>
-<h3 id="retirer-une-pierre-du-destin">Retirer une Pierre du Destin</h3>
+</section>
+<section id="retirer-une-pierre-du-destin">
+<h3>Retirer une Pierre du Destin</h3>
 <img class="block-centered" alt="Plague-ridden Sentinel" src="plague_ridden_sentinel_by_halycon450_dcjp9wr-fullview.png">
 <p>Lorsqu’un Héro est en position d’accomplir une action qui pourrait lui permettre d’accomplir une étape du Pacte,
 il doit l’anoncer, et on replie alors la table de résolution.</p>
@@ -487,7 +507,9 @@ Encore une fois, cet au joueur d’expliquer comment ce PJ a à son tour l’occ
 <p>Si jamais un Héro meurt en cours de partie, il pourra tout de même aider ses camarades par-delà la mort :
 une fois par demi-heure, il peut accorder un bonus d’<em>1d6</em> supplémentaire au jet d’un joueur.</p>
 </div>
-<h3 id="sc%C3%A8ne-finale">Scène finale</h3>
+</section>
+<section id="sc%C3%A8ne-finale">
+<h3>Scène finale</h3>
 <p>Lorsque la dernière pierre de Destin a été défaussée, le MJ introduit la <strong>Scène finale</strong>.</p>
 <p>Comme promis au début de la partie, cette scène doit être l’occasion pour tous les Héros d’accomplir leurs <strong>Objectifs</strong>.
 Le MJ décrit le lieu, les personnages présents et brièvement comment les Héros sont arrivés ici pendant cette ellipse temporelle.</p>
@@ -528,11 +550,15 @@ On effetue alors le ou les jets aléatoires requis pour déterminés les Héros 
 chaque joueur prend alors la parole pour décrire ce qu’il advient de son Héro au cours de cette scène et après,
 en complétant ce que le précédent vient de décrire.</p>
 <img class="block-centered small-img" src="bone-1299051_1280.png">
+</section>
+</section>
 </div>
 <div class="on-new-page">
 <div class="block-centered limited-width">
-<h2 id="table-de-r%C3%A9solution">Table de résolution</h2>
+<section id="table-de-r%C3%A9solution">
+<h2>Table de résolution</h2>
 <p><span class="speaks">Entre parenthèses et en vert</span> est indiqué QUI a la parole.</p>
+</section>
 </div>
 <div class="column resolution-table">
     <div class="column table-row">
@@ -869,8 +895,9 @@ en complétant ce que le précédent vient de décrire.</p>
 .hero-sheet li { margin: .3rem 0; list-style-type: none; height: 2rem; }
 </style>
 </div>
-<div class="block-centered limited-width rules">
-<h2 id="sources-%26-remerciements">Sources &amp; remerciements</h2>
+<div class="on-new-page block-centered limited-width rules">
+<section id="sources-%26-remerciements">
+<h2>Sources &amp; remerciements</h2>
 <p><a class="float-left" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License Attribution 4.0 International" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
 <p><em>Amères victoires &amp; glorieuses défaites</em> est un jeu de Lucas Cimon
 sous license <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.</p>
@@ -913,9 +940,9 @@ sous license <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
 <p>Un énorme <strong>MERCI</strong> à mes relecteurs &amp; <em>playtesteurs</em> :
 Matthieu, Simon, Cédric, Henri, Thomas.
 Ce jeu n’existerait pas sans vous, et il ne serait certainement pas aussi fun sans vos précieux retours !</p>
-</div>
-<div class="on-new-page block-centered limited-width rules">
-<h2 id="un-univers-cr%C3%A9%C3%A9-en-90min">Un univers créé en 90min</h2>
+</section>
+<section id="un-univers-cr%C3%A9%C3%A9-en-90min">
+<h2>Un univers créé en 90min</h2>
 <p>Le MJ a commencé par lister <strong>quelques sources d’inspirations</strong> connues des joueurs autour de la table :
 les jeux vidéo <em>Dark Souls</em> et <em>Shadow of the Colossus</em>, le manga <em>Berserk</em>, la série de romans <em>Les Annales de la Compagnie Noire</em>.
 L’ambiance générale sera donc de la “Dark Fantasy”, tendant un peu vers le “Post-Apo” ou le “Steampunk”.</p>
@@ -1037,6 +1064,7 @@ Comme ils n’arrivaient pas à se décider, nous avons convenu d’établir en 
 </table>
 <p>Les joueurs étaient plutôt amusés des résultats obtenus, sans pour autant être contraints par eux !
 Il s’agissait uniquement de sources d’inspirations improvisées.</p>
+</section>
 </div>
 <style>
 @font-face { /* OK max 2.5rem */
@@ -1066,6 +1094,7 @@ h1 {
     max-width: 50rem;
     margin: 4rem auto; margin-bottom: -2rem;
 }
+@media print { h1 { margin-top: 0; } }
 h2, h3, h4 { font-family: FFF_Tusj; }
 h2 { line-height: 1.2; font-size: 2em; }
 h3 { line-height: 1.2; font-size: 1.5em; }
@@ -1075,7 +1104,7 @@ figcaption { text-align: center; font-size: .6rem; }
 @media print { .on-new-page { page-break-before: always; } }
 
 .block-centered { display: block; margin: 0 auto; }
-.limited-width { max-width: 40rem; margin: 2.5rem auto; }
+.limited-width { max-width: 60rem; margin: 2.5rem auto; }
 .small-img { max-width: 10rem; }
 .medium-img { max-width: 30rem; }
 .headless-table th { font-weight: normal; }
@@ -1100,7 +1129,7 @@ figcaption { text-align: center; font-size: .6rem; }
     clear: both;
 }
 .variant {
-    max-width: 16rem;
+    max-width: 20rem;
     border: 2px solid #444;
     padding: 0 .5rem;
     font-size: .8rem;
@@ -1119,5 +1148,6 @@ figcaption { text-align: center; font-size: .6rem; }
 <script src="jquery-3.3.1.min.js"></script>
 <script src="jquery.maphilight.js"></script>
 <script>$('#game-flow-toc').maphilight()</script>
+</section>
 </body>
 </html>
