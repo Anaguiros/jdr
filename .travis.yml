@@ -1,17 +1,20 @@
 language: node_js
 node_js: '8'
-cache:
-  directories:
-  - node_modules
+cache: npm
 install:
 - npm install -g puppeteer-cli
-- npm install markdown-it markdown-it-anchor markdown-it-header-sections markdown-it-table-of-contents
-  markdown-it-container markdown-it-include markdown-it-multimd-table minimist
+- npm install minimist markdown-it markdown-it-anchor markdown-it-checkbox markdown-it-header-sections
+  markdown-it-table-of-contents markdown-it-container markdown-it-include markdown-it-multimd-table
 - wget https://raw.githubusercontent.com/Lucas-C/dotfiles_and_notes/master/bin/md2html.js
 script:
 - cd gdav
 - node ../md2html.js gdav.md > index.html
-- puppeteer print index.html gdav.pdf
+- if [[ $TRAVIS_TAG =~ ^gdav ]]; then puppeteer print index.html ../$TRAVIS_TAG.pdf; fi
+- cd -
+- cd latour
+- node ../md2html.js latour.md > index.html
+- if [[ $TRAVIS_TAG =~ ^latour ]]; then puppeteer print index.html ../$TRAVIS_TAG.pdf; fi
+- cd -
 deploy:
   - provider: pages
     skip-cleanup: true
@@ -25,9 +28,7 @@ deploy:
       secure: UzwlUeaL7rNwNOAUtaQd7rpIXXNHFWTUNy+24K+QXKF+XaPvaAjbkIIdWKPBgckM8zj0fdhRJRrgX+ceQint8jFsivalOR5YEEiPIJMAQenKb3YUMQLofzuTYJxbbTtHssEzknoukxMJqJaD9/7ibdOVBIrOz8Xv8BflaLS6e4/bJs9SBtRM6egdU4aORJFT6Z2RTQvH4DDMLryS4SEBCedt2C5GqXq7bJjfhHw0PFstc4iN3p0vg7lWLxlBV/fRNixL9f0ehnV0rfgkLXDDef3Eo90mfs6J5z2IFbsIm9U6qD8DaB3N6qJkZ/vEIkmVaAuP2134UowBtTmulKO3vcg6Oi4sdTMiuwHASx1Of6liltJYeclNZHQBRicIc0BjbpGsbFjNpAW9KNc2E7k+92878XPinIiE1Ns/DNhUXCaj2YiBVcblwShAel/8CfV/LyWV+U5jGrUErqQQaPO9kLMaZwO2Ni3d38tOyQGxX0v8OBwzBRABUnsASFfXFDN4Bnb8SGZEkr4/9Io8SE4E5CuM4uThQJ6jp1Gi4nNuZGeaU65ItJHApKh3RaAMYpaaP0LQo2sYNFfLuW9aOqQfmZwuk96asusRxu9foUKwLMuZJlUgfr/8eZxZaOc0bvJBy+Bp6/tYoLCKkSGUMN7HQkoOBwB7cErGSYGTz7DYxFc=
     on:
       tags: true
-      condition: "$TRAVIS_TAG =~ ^gdav-.*$"
     skip_cleanup: true
-    script: mv gdav.pdf $TRAVIS_TAG.pdf
     file: $TRAVIS_TAG.pdf
 notifications:
   email:
