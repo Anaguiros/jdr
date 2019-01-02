@@ -6,15 +6,13 @@
 </head>
 <body>
 <!-- Tasks:
-- article blog: reco illus Remember Me Paul Chadeisson -> https://www.artstation.com/pao/albums/672547
-- attendre autorisation des 2 artistes
-- ajouter noms relecteurs
+- attendre autorisation des 2 artistes & retours relecteurs (puis ajouter leurs noms en remerciements)
 Icônes:
   * https://game-icons.net/delapouite/originals/solar-system.html
   * https://game-icons.net/delapouite/originals/astronaut-helmet.html
   * https://game-icons.net/lorc/originals/space-suit.html
   * https://game-icons.net/delapouite/originals/spaceship.html ?
-- partager avec Grégory Pogorzelski + Alex Loywick rapport à Into The Dark jdr
+- partager avec Alex Loywick rapport à Into The Dark jdr
 -->
 <section id="scavengers%3A-anomalies-nauchoresques">
 <h1>Scavengers: anomalies nauchoresques</h1>
@@ -281,6 +279,22 @@ VO: http://apocalypse-world.com/ApocalypseWorldBasicRefbook2ndEd.pdf
 - https://buriedwithoutceremony.com/little-games/simple-world
 - http://www.story-games.com/forums/discussion/18311/apocalypse-world-writing-playbooks
 - https://nerdwerds.blogspot.com/2017/08/apocalypse-world-actual-playbooks.html
+- Inverse World playbooks: http://cloud.ombreport.info/index.php/s/f2eZDZDHpnw4yjL#pdfviewer
+  * Keeper of Curios: You keep a collection of strange and rare curiosities, which follow some sort of theme - 
+masks, small dinosaurs, mechanical replicas of insects. Your collection is 5-weight, and
+contains a variety of useful things collected throughout your travels.
+Record your collection's Theme: ___________________________________________
+Choose one or two to describe your collection's Look: Amazing, Bizarre, Complex, Historic, Impractical, Mysterious, Simple, Surreal, Whimsical
+When you take a few moments to dig through your collection for something useful, 
+describe what you're looking for and what you want it to do. You can potentially have 
+anything on hand, but the GM will tell you one to four of the following:
+• It is either consumable or faulty, and will only work once
+• It was not intended to be used for this
+• It will take a lot of time and effort to use properly
+• It won't work unless you _____
+• The curio's effects are incredibly specific
+• You get something close to what you want, but not quite
+• You'll need help from _____ to use it safely
 -->
 <p>Tous les joueurs qui le souhaitent peuvent tout d’abord tirer au hasard un TOC :</p>
 <table>
@@ -320,6 +334,7 @@ VO: http://apocalypse-world.com/ApocalypseWorldBasicRefbook2ndEd.pdf
 <p>Les joueurs gagnent +1 XP par mission où ils ont utilisé leur TOC pour <strong>mettre leur personnage en difficulté</strong>.</p>
 <p>Ensuite, si vous décidez d’utiliser les <em>playbooks</em> ci-dessous, proposez à vos joueurs de choisir un de ces archétypes
 à la création de leur personnage.</p>
+<div class="playbook">
 <section id="veteran-pacifiste">
 <h3>VETERAN PACIFISTE</h3>
 <figure>
@@ -334,31 +349,13 @@ En tout cas tu as acquis un sacré sang froid, une tripotée de cauchemars récu
 <p><strong>Actions</strong>: Choisis-en 2 parmi celles décrites ci-dessous.
 Remplir ta jauge d’expérience te permettra d’en acquérir une autre.</p>
 <p class="floats-clear"></p>
-<section id="as-du-pilotage">
-<h4>AS DU PILOTAGE</h4>
-<p><strong>Quand tu réalises une manœuvre spatiale délicate avec ton vaisseau</strong>,
-ajoute <strong>+1</strong> à ton jet pour la <em>jouer en finesse</em>.
-En cas de réussite, tu as ces options supplémentaires au choix, et tu peux en sélectionner une de plus :</p>
-<ul>
-<li>en conséquence, des vaisseaux adverses se percutent ou se tirent dessus</li>
-<li>si cette manœuvre était préparatoire à une autre action, celle-ci bénéficie d’un bonus de <strong>+2</strong></li>
-</ul>
-<p>En cas d’échec, ton vaisseau subit une avarie handicapante.</p>
-<p>Être un <em>as du pilotage</em> permet également d’avoir un bonus de <strong>+1</strong> au jet en cas de <em>décollage urgent</em>.</p>
+<section id="%5B-%5D-a-la-rescousse">
+<h4><input type="checkbox" id="checkbox0"><label for="checkbox0"> A LA RESCOUSSE</label></h4>
+<p><strong>Quand tu débarques en fanfare au dernier moment pour sauver la mise</strong>,
+toi-même et tous ceux qui t’assistent gagnez <strong>+1</strong> aux jets suivants tant que vous bénéficiez de l’effet de surprise.</p>
 </section>
-<section id="canarder">
-<h4>CANARDER</h4>
-<p><strong>Quand tu te sers d’armes à feu</strong> ou leurs équivalents spatiaux,
-ajoute <strong>+1</strong> à ton jet pour <em>utiliser la manière forte</em>.
-En cas de réussite, tu as ces options supplémentaires au choix, et tu peux en sélectionner une de plus :</p>
-<ul>
-<li>tu impressionnes, effrayes ou désarçonnes tes ennemis, qui reculent ou restent en retrait</li>
-<li>tu couvres quelqu’un (ce peut être toi-même), lui permettant de se déplacer sans risque d’être touché dans une fusillade</li>
-<li>tu touches un composant électronique ou un système de survie qui entraîne une avarie de vaisseau ou une fuite d’air</li>
-</ul>
-</section>
-<section id="faire-le-point">
-<h4>FAIRE LE POINT</h4>
+<section id="%5B-%5D-faire-le-point">
+<h4><input type="checkbox" id="checkbox1"><label for="checkbox1"> FAIRE LE POINT</label></h4>
 <p><strong>Quand tu fais le point sur une situation tendue ou que tu évalues tes options</strong>,
 lance 2 dés + <strong>Vif</strong>. Sur un succès, tu peux poser des questions au MC.
 Si tu agis en prenant la réponse du MC en considération, tu reçois <strong>+1</strong> au prochain jet.
@@ -372,16 +369,16 @@ Sur 10+, tu peux poser 3 questions. Sur 7-9, 1 seule :</p>
 <li>qui a l’avantage ici ?</li>
 </ul>
 </section>
-<section id="self-defense">
-<h4>SELF-DEFENSE</h4>
+<section id="%5B-%5D-self-defense">
+<h4><input type="checkbox" id="checkbox2"><label for="checkbox2"> SELF-DEFENSE</label></h4>
 <p><strong>Quand quelqu’un te menace d’une arme, tente de te ligoter ou de t’attaquer au corps à corps</strong>,
 lance 2 dés + <strong>Dur</strong>. Sur 10+, au choix, tu l’immobilises ou tu le désarmes.
 Sur 7-9, au choix, tu le désarmes mais il t’immobilise, ou bien tu évites juste son coup / son tir en esquivant / plongeant à couvert.
 En cas d’échec, il te voit venir et est plus rapide : <em>risque ta santé</em> ou prend une <em>Condition</em>.</p>
 </section>
-<section id="soins-d%E2%80%99urgence">
-<h4>SOINS D’URGENCE</h4>
-<p><strong>Quand tu tentes de stabiliser une blessure que vient de recevoir une personnage</strong>,
+<section id="%5B-%5D-soins-d%E2%80%99urgence">
+<h4><input type="checkbox" id="checkbox3"><label for="checkbox3"> SOINS D’URGENCE</label></h4>
+<p><strong>Quand tu tentes de stabiliser une blessure que vient de recevoir un personnage</strong>,
 lance 2 dés + <strong>Fin</strong>. Sur 7-9, choisis 1 option ci-dessous. Sur 10+, choisis-en 2 :</p>
 <ul>
 <li>le moniteur de santé du personnage s’améliore d’un cran</li>
@@ -393,8 +390,10 @@ lance 2 dés + <strong>Fin</strong>. Sur 7-9, choisis 1 option ci-dessous. Sur 1
 pour compresser une plaie / lui faire un massage cardiaque / le maintenir éveillé même s’il délire.</p>
 </section>
 </section>
-<section id="contrebandier-roublard">
-<h3>CONTREBANDIER ROUBLARD</h3>
+</div>
+<div class="playbook">
+<section id="contrebandier-charismatique">
+<h3>CONTREBANDIER CHARISMATIQUE</h3>
 <figure>
   <img alt="Une jeunne femme armée d'un fusil plasma" src="img/anti_materiel_by_fernand0fc_dbkaqcc-fullview.jpg">
   <figcaption><a href="https://www.deviantart.com/fernand0fc/art/Anti-Materiel-699220956">Anti-Materiel</a> de Fernand0FC - <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></figcaption>
@@ -409,8 +408,8 @@ Et tant pis si ton receleur réalise a posteriori qu’il s’est fait rouler, t
 <p><strong>Actions</strong>: Choisis-en 2 parmi celles décrites ci-dessous.
 Remplir ta jauge d’expérience te permettra d’en acquérir une autre.</p>
 <p class="floats-clear"></p>
-<section id="baratineur">
-<h4>BARATINEUR</h4>
+<section id="%5B-%5D-baratineur">
+<h4><input type="checkbox" id="checkbox4"><label for="checkbox4"> BARATINEUR</label></h4>
 <p><strong>Quand tu cherches à gagner du temps ou à embobiner quelqu’un</strong>,
 lance 2 dés + <strong>Fin</strong>. Sur 7-9, choisis 1 option ci-dessous. Sur 10+, choisis-en 2 :</p>
 <ul>
@@ -420,8 +419,8 @@ lance 2 dés + <strong>Fin</strong>. Sur 7-9, choisis 1 option ci-dessous. Sur 1
 <li>tu insuffles à la personne le sentiment que tu souhaites : amusé, inquiet, méfiant ou en colère cotre quelqu’un…</li>
 </ul>
 </section>
-<section id="cerner-quelqu%E2%80%99un">
-<h4>CERNER QUELQU’UN</h4>
+<section id="%5B-%5D-cerner-quelqu%E2%80%99un">
+<h4><input type="checkbox" id="checkbox5"><label for="checkbox5"> CERNER QUELQU’UN</label></h4>
 <p><strong>Quand tu essaies de cerner quelqu’un lors d’une situation tendue</strong>,
 lance 2 dés + <strong>Fin</strong>. Pendant que tu discutes avec lui, tu peux lui poser 3 questions (sur 10+) ou 1 seule (sur 7-9) :</p>
 <ul>
@@ -432,38 +431,26 @@ lance 2 dés + <strong>Fin</strong>. Pendant que tu discutes avec lui, tu peux l
 <li>comment est-ce que je peux convaincre ton personnage de ___ ?</li>
 </ul>
 </section>
-<section id="cyber-cb">
-<h4>CYBER-CB</h4>
-<p><strong>Quand tu demandes un conseil via ton holo-casque sur le forum #scavenge de l’Hypernet</strong>,
-demande à cette communauté de vieux baroudeurs ce qu’ils pensent être la meilleure chose à faire, et le MC te le dit.
-Si tu suis le conseil, prends <strong>+1</strong> à tous les jets de dés que tu fais en le suivant.
-Si tu suis les conseils mais que malgré tout tu n’atteins pas ton objectif, +1 XP.</p>
-<p><strong>Quand tu souhaites te renseigner sur quelqu’un, un lieu ou une techno via le forum #scavenge de l’Hypernet</strong>,
-lance 2 dés + <strong>Fin</strong>. Sur un succès, tu peux poser des questions au MC. Sur 10+, 2 questions. Sur 7-9, 1 question :</p>
+<section id="%5B-%5D-commander">
+<h4><input type="checkbox" id="checkbox6"><label for="checkbox6"> COMMANDER</label></h4>
+<p><strong>Quand tu donnes un ordre à des PNJs non-hostiles</strong>, lance 2 dés + <strong>Dur</strong>.
+Sur 10+, ils t’obéissent du mieux qu’ils peuvent. Sur 7-9, le MC choisit parmi :</p>
 <ul>
-<li>Est-ce/il/elle dangereux ? Si oui pourquoi ?</li>
-<li>Qu’est-ce qui se trame de louche à ce/son propos ?</li>
-<li>Est-ce que ça/il/elle peut me rapporter du cash ? Si oui comment ?</li>
-<li>Comment l’approcher ?</li>
+<li>ils le font, mais pas très bien ou pas exactement comme tu voulais</li>
+<li>ils t’offrent quelque chose qu’ils pensent que tu veux</li>
+<li>ils s’arrêtent de faire ce qu’ils faisaient t’accordent leur attention</li>
 </ul>
-<p>Sur un échec, demande toujours mais des personnes concernées sont informées de tes recherches…</p>
 </section>
-<section id="les-yeux-sur-la-porte">
-<h4>LES YEUX SUR LA PORTE</h4>
-<p>Tu es toujours sur le qui-vive, et tu as toujours à l’esprit une solution pour prendre la poudre d’escampette.
-<strong>Quand tu souhaites disparaître en vitesse d’une situation tendue</strong>, annonce ton échappatoire et lance 2 dés + <strong>Vif</strong>.
-Sur 10+ tu es déjà parti. Sur 7-9 tu restes ou tu pars, mais si tu pars ça te coûte :
-tu laisses quelque chose derrière toi ou tu prends quelque chose avec toi, et le MC te
-dit quoi. Sur un échec, tu es pris sur le fait, un pied dehors et un pied dedans.</p>
-</section>
-<section id="reputation">
-<h4>REPUTATION</h4>
+<section id="%5B-%5D-reputation">
+<h4><input type="checkbox" id="checkbox7"><label for="checkbox7"> REPUTATION</label></h4>
 <p><strong>Quand tu rencontres quelqu’un qui t’a l’air important</strong>, tu peux, si tu veux, lancer 2 dés + nombre de contacts.
 Sur une réussite, il a entendu parler de toi, et tu décides de ce qu’il a entendu : le MC le fera réagir en conséquences.
 Sur 10+ tu prends un <strong>+1</strong> au prochain jet quand tu auras affaire à lui.
 Sur un échec, il a entendu parler de toi, mais le MC décide de ce qu’il a entendu.</p>
 </section>
 </section>
+</div>
+<div class="playbook">
 <section id="explorateur-technophile">
 <h3>EXPLORATEUR TECHNOPHILE</h3>
 <figure>
@@ -478,8 +465,8 @@ Ta soif de découvertes te pousse à accepter des contrats toujours plus louches
 +2 XP si tu ramènes des preuves de cette découverte à Point Central. Et pas juste des photos, personne n’y fait plus confiance.</p>
 <p><strong>Actions</strong>: Choisis-en 2 parmi celles décrites ci-dessous. Remplir ta jauge d’expérience te permettra d’en acquérir une autre.</p>
 <p class="floats-clear"></p>
-<section id="affinite-xeno">
-<h4>AFFINITE XENO</h4>
+<section id="%5B-%5D-affinite-xeno">
+<h4><input type="checkbox" id="checkbox8"><label for="checkbox8"> AFFINITE XENO</label></h4>
 <p><strong>Quand tu entres en contact avec un alien ou que tu manipules un artefact xeno</strong>,
 lance 2 dés + <strong>Fin</strong>. Sur un succès, tu peux poser des questions au MC. Sur 10+, 2 questions. Sur 7-9, 1 question :</p>
 <ul>
@@ -489,8 +476,8 @@ lance 2 dés + <strong>Fin</strong>. Sur un succès, tu peux poser des questions
 </ul>
 <p>Sur un échec, le MC te fait un sale coup.</p>
 </section>
-<section id="bricolage-de-fortune">
-<h4>BRICOLAGE DE FORTUNE</h4>
+<section id="%5B-%5D-bricolage-de-fortune">
+<h4><input type="checkbox" id="checkbox9"><label for="checkbox9"> BRICOLAGE DE FORTUNE</label></h4>
 <p><strong>Quand tu cherches à rafistoler ou désactiver un objet ou un système</strong>,
 ajoute <strong>+1</strong> à ton jet pour la <em>jouer en finesse</em>.
 En cas de réussite, tu as ces options supplémentaires au choix, et tu peux en sélectionner une de plus :</p>
@@ -500,15 +487,27 @@ En cas de réussite, tu as ces options supplémentaires au choix, et tu peux en 
 </ul>
 <p>Ajoute <strong>+1</strong> si tu as avec toi ta trousse à outil antigrav massive.</p>
 </section>
-<section id="pas-de-velours">
-<h4>PAS DE VELOURS</h4>
-<p><strong>Quand tu cherches à te déplacer discrètement, sans attirer l’attention de quelqu’un ou quelque chose</strong>,
-lance 2 dés + <strong>Vif</strong>. Sur 10+, rien ni personne ne te remarque. Sur 7-9, en continuant tu risques de te faire repérer :
-fais demi-tour maintenant sans être détecté, ou continue en espérant avoir assez de réflexe pour réagir quand tu seras découvert.
-Sur un échec, l’alerte est donnée.</p>
+<section id="%5B-%5D-insaisissable">
+<h4><input type="checkbox" id="checkbox10"><label for="checkbox10"> INSAISISSABLE</label></h4>
+<p>Tu as vécu ta vie de vaisseau en vaisseau, et tu as joué plusieurs fois les passagers clandestins.
+Il t’est même arrivé d’être le seul éveillé pendant de longs mois alors que l’équipage était en stase.</p>
+<p>En conséquence tu connais tous leurs recoins, toutes les planques qu’ils recèlent,
+et tu as toujours à l’esprit une solution pour prendre la poudre d’escampette.
+Au besoin tu trouveras toujours une cache dans une coursive, dissimulé derrière un panneau de métal que personne ne pensait amovible.</p>
+<p>Dans un vaisseau ou une station spaciale, <strong>quand tu souhaites disparaître en vitesse d’une situation tendue</strong>,
+annonce ton échappatoire et lance 2 dés + <strong>Vif</strong>.
+Sur 10+ tu es déjà parti. Sur 7-9 tu restes ou tu pars, mais si tu pars ça te coûte :
+tu laisses quelque chose derrière toi ou tu prends quelque chose avec toi, et le MC te
+dit quoi. Sur un échec, tu es pris sur le fait, un pied dehors et un pied dedans.</p>
+<p>Idem, dans un vaisseau ou une station spaciale, <strong>quand tu souhaites te planquer ou dissimuler quelque chose</strong>,
+annonce ton plan et si un personnage fouille les lieux, lance 2 dés + <strong>Fin</strong>.
+Sur 10+ personne ne découvrira jamais cette planque.
+Sur 7-9 tu réalises que quelque chose risque de mettre la puce à l’oreille des curieux : tu as laissé des traces, quelque chose dépasse ou fait du bruit…
+Tu peux décider de bondir maintenant et avoir l’avantage de la surprise, ou tu peux attendre de voir comment la situation évolue.
+Sur un échec, ta cache est découverte.</p>
 </section>
-<section id="mecano">
-<h4>MECANO</h4>
+<section id="%5B-%5D-mecano">
+<h4><input type="checkbox" id="checkbox11"><label for="checkbox11"> MECANO</label></h4>
 <p><strong>Quand tu te retranches dans ton atelier et que tu te consacres à bricoler quelque chose ou à étudier un truc quelconque</strong>,
 décide quoi et dis le au MC. Le MC te répondra « d’accord, pas de problème, mais… » puis entre 1 à 4 de ces trucs ci-dessous :</p>
 <ul>
@@ -524,15 +523,74 @@ décide quoi et dis le au MC. Le MC te répondra « d’accord, pas de problème
 </ul>
 <p>Le MC peut les articuler avec un «et» ou se sentir magnanime et ajouter un «ou».</p>
 </section>
-<section id="natif-de-l%E2%80%99espace">
-<h4>NATIF DE L’ESPACE</h4>
-<p>Tu as vécu toute ta vie dans un vaisseau, et tu connais tous leurs recoins, tous leurs caprices de fonctionnement.
-Ton sens de l’orientation en trois dimensions est imparable, et tu sais toujours parfaitement te situer et retrouver ta direction dans un vaisseau.
-Au besoin tu trouveras toujours une planque dans une coursive, dissimulé derrière un panneau de métal que personne ne pensait amovible.
-De l’intérieur, tu es capable de provoquer des pannes qui prendront des heures à être diagnostiquées pour permettre au vaisseau de repartir.
-Enfin, tu as un bonus de <strong>+1</strong> à tous tes jets de <strong>Dur</strong> pour résister aux pénuries spatiales : de nourriture, de chaleur, d’oxygène, de gravité…</p>
+</section>
+</div>
+<div class="playbook">
+<section id="actions-spaciales-supplementaires">
+<h3>ACTIONS SPACIALES SUPPLEMENTAIRES</h3>
+<p>Chaque joueur peut en sélectionner une au choix dans cette liste :</p>
+<section id="%5B-%5D-as-du-pilotage">
+<h4><input type="checkbox" id="checkbox12"><label for="checkbox12"> AS DU PILOTAGE</label></h4>
+<p><strong>Quand tu réalises une manœuvre spatiale délicate avec ton vaisseau</strong>,
+ajoute <strong>+1</strong> à ton jet pour la <em>jouer en finesse</em>.
+En cas de réussite, tu as ces options supplémentaires au choix, et tu peux en sélectionner une de plus :</p>
+<ul>
+<li>en conséquence, des vaisseaux adverses se percutent ou se tirent dessus</li>
+<li>si cette manœuvre était préparatoire à une autre action, celle-ci bénéficie d’un bonus de <strong>+2</strong></li>
+</ul>
+<p>En cas d’échec, ton vaisseau subit une avarie handicapante.</p>
+<p>Être un <em>as du pilotage</em> permet également d’avoir un bonus de <strong>+1</strong> au jet en cas de <em>décollage urgent</em>.</p>
+</section>
+<section id="%5B-%5D-canarder">
+<h4><input type="checkbox" id="checkbox13"><label for="checkbox13"> CANARDER</label></h4>
+<p><strong>Quand tu te sers d’armes à feu</strong> ou leurs équivalents spatiaux,
+ajoute <strong>+1</strong> à ton jet pour <em>utiliser la manière forte</em>.
+En cas de réussite, tu as ces options supplémentaires au choix, et tu peux en sélectionner une de plus :</p>
+<ul>
+<li>tu impressionnes, effrayes ou désarçonnes tes ennemis, qui reculent ou restent en retrait</li>
+<li>tu couvres quelqu’un (ce peut être toi-même), lui permettant de se déplacer sans risque d’être touché dans une fusillade</li>
+<li>tu touches un composant électronique ou un système de survie qui entraîne une avarie de vaisseau ou une fuite d’air</li>
+</ul>
+</section>
+<section id="%5B-%5D-cyber-cb">
+<h4><input type="checkbox" id="checkbox14"><label for="checkbox14"> CYBER-CB</label></h4>
+<p><strong>Quand tu demandes un conseil via ton holo-casque sur le forum #scavenge de l’Hypernet</strong>,
+demande à cette communauté de vieux baroudeurs ce qu’ils pensent être la meilleure chose à faire, et le MC te le dit.
+Si tu suis le conseil, prends <strong>+1</strong> à tous les jets de dés que tu fais en le suivant.
+Si tu suis les conseils mais que malgré tout tu n’atteins pas ton objectif, +1 XP.</p>
+<p><strong>Quand tu souhaites te renseigner sur quelqu’un, un lieu ou une techno via le forum #scavenge de l’Hypernet</strong>,
+lance 2 dés + <strong>Fin</strong>. Sur un succès, tu peux poser des questions au MC. Sur 10+, 2 questions. Sur 7-9, 1 question :</p>
+<ul>
+<li>Est-ce/il/elle dangereux ? Si oui pourquoi ?</li>
+<li>Qu’est-ce qui se trame de louche à ce/son propos ?</li>
+<li>Est-ce que ça/il/elle peut me rapporter du cash ? Si oui comment ?</li>
+<li>Comment l’approcher ?</li>
+</ul>
+<p>Sur un échec, demande toujours mais des personnes concernées sont informées de tes recherches…</p>
+</section>
+<section id="%5B-%5D-pas-de-velours">
+<h4><input type="checkbox" id="checkbox15"><label for="checkbox15"> PAS DE VELOURS</label></h4>
+<p><strong>Quand tu cherches à te déplacer discrètement, sans attirer l’attention de quelqu’un ou quelque chose</strong>,
+lance 2 dés + <strong>Vif</strong>. Sur 10+, rien ni personne ne te remarque. Sur 7-9, en continuant tu risques de te faire repérer :
+fais demi-tour maintenant sans être détecté, ou continue en espérant avoir assez de réflexe pour réagir quand tu seras découvert.
+Sur un échec, l’alerte est donnée.</p>
+</section>
+<section id="%5B-%5D-progression-en-terrain-hostile">
+<h4><input type="checkbox" id="checkbox16"><label for="checkbox16"> PROGRESSION EN TERRAIN HOSTILE</label></h4>
+<p>Que tu te frayes un chemin à coups de basters ou que tu cavales en mode parkour,
+<strong>quand tu traverses rapidement une zone occupée par des ennemis</strong>, lance 2 dés + <strong>Vif</strong>.
+Sur 10+, tu obtiens 3 points. Sur 7-9, seulement 2. Sur 6-, tu en obtiens 1 mais le MC en gagne également 1 qu’il peut utiliser en faveur de vos adversaires.
+Dépense 1 point n’importe quand pour :</p>
+<ul>
+<li>Eviter ou te débarasser d’un ennemi et continuer à progresser</li>
+<li>Traverser un obstacle ou passer un ennemi sur ton chemin en utilisant ton élan pour faire un cascade</li>
+<li>Grimper quelque part hors de portée ou de vue</li>
+<li>Créer une distraction pour occuper un ennemi</li>
+<li>Attirer l’attention de tes adversaires vers d’autres personnages, ou au contraire vers toi pour qu’ils ignorent tes alliés</li>
+</ul>
 </section>
 </section>
+</div>
 </section>
 <section id="compas-d%E2%80%99humeurs">
 <h2>Compas d’humeurs</h2>
