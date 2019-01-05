@@ -96,7 +96,7 @@ capables de leur donner une apparence humaine. Cette projection se nomme <strong
 Elle ne permet pas de contact préhensible</p>
 <ul>
 <li>-1 / création</li>
-<li>Presence max = 8</li>
+<li>Psychée max = 8</li>
 <li>-1 / min si projetee a distance</li>
 <li>-1 par comportment non realiste</li>
 <li>-1 par modification d’apparence</li>
@@ -166,12 +166,12 @@ Tout personnage sans armure est immédiatment mis K.O. lorsqu’il reçoit un d�
 <p><img src="img/bear_by_masterblek_d511quq-fullview.jpg" alt="">
 <strong>Nom de code:</strong> Arcas</p>
 <p><strong>Férocité:</strong></p>
-<p><strong>Présence:</strong></p>
+<p><strong>Humain:</strong></p>
 <p><strong>Vivacité:</strong></p>
-<p><strong>Armure:</strong><input type="checkbox" id="checkbox0"><label for="checkbox0">[ ] [ ] [ ] [ ] [ ] [ ] [ ]</label></p>
 <p><strong>Désavantage:</strong> sa Psychée ne lui procure pas de couverture, il est systématiquement touché en cas d’attaque</p>
 <p><strong>Souvenirs:</strong></p>
-<p><strong>Exo-armure:</strong></p>
+<p><strong>Psychée:</strong></p>
+<p><strong>Exo-armure:</strong><input type="checkbox" id="checkbox0"><label for="checkbox0">endommagée [ ] transpercée [ ] panne sévère [ ] majoritairement dysfonctionnelle [ ] hors service</label></p>
 <p><strong>Mouvements tactiques:</strong> déplacement furtif - pénétrer dans une pièce en éliminant toute menace - parkour - sniper - tir de barrage</p>
 </dl>
 </div>
@@ -179,23 +179,24 @@ Tout personnage sans armure est immédiatment mis K.O. lorsqu’il reçoit un d�
 <p><img src="img/dog_by_masterblek_d511r8k-fullview.jpg" alt="">
 <strong>Nom de code:</strong> Maera</p>
 <p><strong>Férocité:</strong></p>
-<p><strong>Présence:</strong></p>
+<p><strong>Humain:</strong></p>
 <p><strong>Vivacité:</strong></p>
-<p><strong>Armure:</strong><input type="checkbox" id="checkbox1"><label for="checkbox1">[ ] [ ] [ ] [ ] [ ] [ ] [ ]</label></p>
 <p><strong>Désavantage:</strong></p>
 <p><strong>Souvenirs:</strong></p>
-<p><strong>Exo-armure:</strong></p>
+<p><strong>Psychée:</strong></p>
+<p><strong>Exo-armure:</strong><input type="checkbox" id="checkbox1"><label for="checkbox1">endommagée [ ] transpercée [ ] panne sévère [ ] majoritairement dysfonctionnelle [ ] hors service</label></p>
 <p><strong>Mouvements tactiques:</strong> déplacement furtif - pénétrer dans une pièce en éliminant toute menace - parkour - sniper - tir de barrage</p>
 </div>
 <div class="column-item-1-half cybanimal">
 <p><img src="img/eagle_by_masterblek_d51sxxg-fullview.jpg" alt="">
 <strong>Nom de code:</strong> Éthon</p>
 <p><strong>Férocité:</strong></p>
-<p><strong>Présence:</strong></p>
+<p><strong>Humain:</strong></p>
 <p><strong>Vivacité:</strong></p>
-<p><strong>Armure:</strong><input type="checkbox" id="checkbox2"><label for="checkbox2">[ ] [ ] [ ] [ ] [ ] [ ] [ ]</label></p>
+<p><strong>Armure:</strong><input type="checkbox" id="checkbox2"><label for="checkbox2">endommagée [ ] transpercée [ ] panne sévère [ ] majoritairement dysfonctionnelle [ ] hors service</label></p>
 <p><strong>Désavantage:</strong> très lent lorsqu’il se déplace au sol, ne peut ps courir</p>
 <p><strong>Souvenirs:</strong></p>
+<p><strong>Psychée:</strong></p>
 <p><strong>Exo-armure:</strong></p>
 <p><strong>Mouvements tactiques:</strong> déplacement furtif - pénétrer dans une pièce en éliminant toute menace - parkour - sniper - tir de barrage</p>
 </div>
@@ -203,11 +204,12 @@ Tout personnage sans armure est immédiatment mis K.O. lorsqu’il reçoit un d�
 <p><img src="img/monkey_by_masterblek_d511r2g-fullview.jpg" alt="">
 <strong>Nom de code:</strong> Cercop</p>
 <p><strong>Férocité:</strong></p>
-<p><strong>Présence:</strong></p>
+<p><strong>Humain:</strong></p>
 <p><strong>Vivacité:</strong></p>
-<p><strong>Armure:</strong><input type="checkbox" id="checkbox3"><label for="checkbox3">[ ] [ ] [ ] [ ] [ ] [ ] [ ]</label></p>
+<p><strong>Armure:</strong><input type="checkbox" id="checkbox3"><label for="checkbox3">endommagée [ ] transpercée [ ] panne sévère [ ] majoritairement dysfonctionnelle [ ] hors service</label></p>
 <p><strong>Désavantage:</strong></p>
 <p><strong>Souvenirs:</strong></p>
+<p><strong>Psychée:</strong></p>
 <p><strong>Exo-armure:</strong></p>
 <p><strong>Mouvements tactiques:</strong> déplacement furtif - pénétrer dans une pièce en éliminant toute menace - parkour - sniper - tir de barrage</p>
 </div>
@@ -245,12 +247,40 @@ femme major sévère (seule fiable ?)
 <div class="grid-item">
 <section id="sc%C3%A8nes">
 <h3>Scènes</h3>
-<p>Intro:
-&gt; Ok, l’enregistrement a démarré. Nous sommes le <date>.
-&gt; Ceci est la première opération sur le terrain de l’unité tactique Chimera.
-&gt; Soldat ___, êtes vous opérationnel ?
-&gt; Êtes-vous prêt à accomplir votre mission, et à obéir scrupuleusement à mes ordres ?
-Cas de conscience scénaristiques:
+</section>
+</div>
+<div class="grid-item">
+<section id="intro">
+<h4>Intro</h4>
+<blockquote>
+<p>Ok, l’enregistrement a démarré. Nous sommes le <date>.
+Ceci est la première opération sur le terrain de l’unité tactique Chimera.
+Soldat ___, êtes vous opérationnel ?
+Êtes-vous prêt à accomplir votre mission, et à obéir scrupuleusement à mes ordres ?</p>
+</blockquote>
+</section>
+</div>
+<div class="grid-item">
+<section id="mission-1-%3A-coul%C3%A9-par-le-fond">
+<h4>Mission 1 : Coulé par le fond</h4>
+<p><strong>Ordres</strong>:</p>
+<ul>
+<li>couler le cargo “C’est Assez”</li>
+<li>ne laisser aucune trace de combat</li>
+<li>détruire le salle de serveurs informatiques à bord</li>
+</ul>
+<p><strong>Obstacles &amp; cas de conscience</strong>:</p>
+<ul>
+<li>réfugiés à bord</li>
+<li>2 molosses</li>
+<li>canon à harpons</li>
+<li>abrite refuge flottant pour animaux “L’Arche de Noë”</li>
+<li>marin avec lance à eau</li>
+</ul>
+</section>
+</div>
+<div class="grid-item">
+<p>Cas de conscience scénaristiques:
 civils
 femme avec bébé
 tuer d’autres animaux
@@ -258,7 +288,6 @@ couler bateau Greenpeace
 éliminer une autre Chimère qui tente de s’échapper
 -&gt; secret: pour s’enfuir, il faut détruire drones-relais puis désactiver chirurgicalement implant radio
 Secret: ne sont pas des animaux doués de consciences, leur exoarmure contient un cerveau humain</p>
-</section>
 </div>
 <div class="grid-item">
 <section id="musique">
