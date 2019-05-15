@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sous-terre</title>
+</head>
+<body>
+<!--
+A terme : jeu-écran ?
+
+https://www.deviantart.com/fernand0fc/art/Roadrunner-718083502
+https://www.deviantart.com/fernand0fc/art/A-huntress-712597141
+https://www.deviantart.com/fernand0fc/art/A-explorer-from-the-canada-wasteland-690924561
+https://www.deviantart.com/fernand0fc/art/Pronto-comenzara-la-caceria-707572305
+https://www.deviantart.com/fernand0fc/art/Tribal-from-the-wasteland-741337493
+https://www.deviantart.com/fernand0fc/art/Sketch-776467782
+
+Si satisfait, demander feedback à http://hu-mu.blogspot.com
+
+# Playtest n°1 ~4h30
+* ++mystères & énigmes
+* bon nombre Talents
+* pulsions trop compliquées & fréquents -> à simplifier
+* quelques améliorations de pouvoirs
+-->
+<section id="sous-terre">
+<h1>Sous terre</h1>
+<p>Ceci est un jeu de rôle d’aventures et d’exploration, pour de courts scénarios de quelques heures, avec un meneur et 3 joueurs.
+La mécanique de jeu fait progresser l’histoire semi-aléatoirement,
+et l’accent est mis sur l’inventivité des PJs pour résoudre les obstacles.</p>
+<p>Il nécessite 2 dés à 6 faces et quelques pions quelconques,
+et seulement 10min de préparation du MJ.</p>
+<section id="jeu-de-r-le-">
+<h4>Jeu de rôle ?</h4>
+<p>Si vous ne connaissez pas encore ce type de jeu, commencez par lire <a href="http://www.ffjdr.org/ce-devez-savoir-jeu-role/definitions-du-jeu-role/">la définition du JdR de la FFJdR</a>
+ou <a href="https://dig1000holes.files.wordpress.com/2013/04/qequjdr.pdf">ce micro-JdR explicatif de Epidiah Ravachol</a>.
+Voici quelques abréviations employées par la suite :</p>
+<dl>
+  <dt>MJ</dt><dd>Meneur de Jeu</dd>
+  <dt>PJ</dt><dd>Personnage d'un Joueur</dd>
+  <dt>PNJ</dt><dd>Personnage Non Joueur, tous les autres personnages de l'histoire, incarnés par le MJ</dd>
+  <dt>1d6</dt><dd>un dé à six faces</dd>
+  <dt>1d3</dt><dd>lancer un dé à six faces
+→ sur un <s>⚀</s> ou un <s>⚁</s>, le résultat est 1,
+→ sur un <s>⚂</s> ou un <s>⚃</s>, le résultat est 2,
+→ sur un <s>⚄</s> ou un <s>⚅</s>, le résultat est 3</dd>
+  <dt>1d2</dt><dd>lancer un dé à six faces → le résultat est 1 si le résultat est impair, 2 sinon</dd>
+</dl>
+</section>
+<section id="univers">
+<h2>Univers</h2>
+<p>Suite à une catastrophe il y a bientôt un siècle, ce qui reste de l’humanité s’est réfugiée sous terre,
+dans un vaste réseau de tunnels.</p>
+<p>+ mention Vril, saison rouge / Pollen &amp; Skavens</p>
+<p>+ on y marchande en faisant du troc ou avec de l’or</p>
+<p>Agartha = dangereuse zone “instable”, parcouru d’une étrange énergie, le Vril</p>
+</section>
+<section id="d-roulement">
+<h2>Déroulement</h2>
+<ol>
+<li>En amont, le MJ définit aléatoire un scénario, ainsi que les PNJs potentiels (10min)</li>
+<li>Durant la partie, les PJs explorent l’Agartha, alternant les phases :</li>
+</ol>
+<ul>
+<li>de progression dans les tunnels</li>
+<li>d’exploration de lieux notables, dans des salles souterraines</li>
+</ul>
+<p>Chaque jet de dés des PJs active la table narrative du MJ.</p>
+<section id="r-gle-d-or">
+<h4>Règle d’or</h4>
+<div class="rule-focus">
+<p>Lorsque le résultat d’un jet de dé dans une table
+ne plait pas au MJ, ne pas hésiter le relancer,
+ou à directement choisir un autre résultat !</p>
+</div>
+</section>
+</section>
+<section id="sc-nario">
+<h2>Scénario</h2>
+<p>Le « fil rouge » d’une partie de <strong>Sous terre</strong> est toujours définit aléatoirement,
+en combinant :</p>
+<ol>
+<li>des PNJs pré-générés aléatoirement</li>
+<li>un objectif principal des PJs</li>
+<li>des problèmes ouverts</li>
+<li>un rebondissement</li>
+</ol>
+<p>Suivez les instructions des sections correspondantes ci-dessous,
+et reportez sur une feuille dédiée les éléments de votre scénario.</p>
+<section id="pnjs">
+<h3>PNJs</h3>
+<p>Chaque PNJ doit représenter pour les joueurs un risque et une opportunité.
+Ils peuvent se révéler hostiles immédiatement ou les trahir plus tard,
+mais aussi être une aide précieuse.</p>
+<p>Énoncez cette règle explicitement à vos joueurs :</p>
+<div class="rule-focus">
+<p>Si les PJs trouvent le bon levier, chaque PNJ peut devenir un allié.</p>
+</div>
+<p>Durant une partie de <strong>Sous terre</strong>, les PJs vont être amenés à rencontrer entre 1 et 4 PNJs.
+Avant la partie, le MJ définit donc 4 PNJs aléatoirement, selon ces règles :</p>
+<ul>
+<li><strong>Nom</strong> :</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><s>⚀</s> <s>⚁</s></th>
+<th><s>⚂</s> <s>⚃</s></th>
+<th><s>⚄</s> <s>⚅</s></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><s>⚀</s></td>
+<td>Johanna</td>
+<td>Friedrick</td>
+<td>Anselme</td>
+</tr>
+<tr>
+<td><s>⚁</s></td>
+<td>Lisette</td>
+<td>Douglas</td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚂</s></td>
+<td>Hortense</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚃</s></td>
+<td>Gina</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚄</s></td>
+<td>Mathilde</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚅</s></td>
+<td>Agnès</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p><strong>Occupation</strong> (fournir bonus aux PJs si PNJ les accompagne): <s>⚀</s>trappeuse solitaire, <s>⚁</s>cartographe, <s>⚂</s>archéologue chercheuse de reliques,
+<s>⚃</s>herboriste ceuilleuse, <s>⚄</s>perdue, <s>⚅</s>tueuse de Skavens.</p>
+</li>
+<li>
+<p><strong>Objectif</strong> :</p>
+</li>
+</ul>
+<div class="dice-list">
+<ul>
+<li>s’est perdu, souhaite sortir de ce labyrinthe</li>
+<li>trouver une monnaie d’échange auprès des Skavens contre sa fille (tir</li>
+<li>trouver un artefact -&gt; 1d2 : pour l’acquérir / pour le détruire</li>
+</ul>
+</div>
+<p>Afin de rendre vos personnages plus réalistes, astreignez-vous à suivre cette règle :</p>
+<div class="rule-focus">
+<p>Un PNJ ne révèle jamais spontanément ni explicitement son objectif.</p>
+</div>
+<p>Ce serait se rendre bien trop vulnérable. Non, il couvrira toujours initialement ses véritables intentions.
+Qu’il propose un marché aux PJs, qu’il leur révéle des informations, qu’il leur raconte d’effrayantes histoires
+ou simplement qu’il les chasse colériquement, ses paroles et actions suffiront à révéler aux PJs attentifs ce qu’il cherche à obtenir.</p>
+<ul>
+<li><strong>Attitude</strong> initiale :</li>
+</ul>
+<div class="dice-list">
+<ul>
+<li>folie -&gt; pair / impair -&gt; douce / dangereuse</li>
+<li>bienveillant</li>
+<li>hostile voir agressif</li>
+<li></li>
+<li>les piège pour les voler</li>
+<li></li>
+</ul>
+</div>
+<ul>
+<li><strong>Avantage / Possession</strong> :</li>
+</ul>
+<div class="dice-list">
+<ul>
+<li>connait les tunnels comme sa poche, sait se rendre dans n’importe quel lieu</li>
+<li>possède une relique (à tirer aléatoirement dans la table correspondante)</li>
+<li>possède une arme très puissante</li>
+</ul>
+</div>
+<ul>
+<li><strong>levier</strong> pour les PJs :</li>
+</ul>
+<div class="dice-list">
+<ul>
+<li>est blessé et recherche des soins</li>
+</ul>
+</div>
+<ul>
+<li><strong>Particularité</strong> :</li>
+</ul>
+<div class="dice-list">
+<ul>
+<li>ne peut pas communiquer : muet ou s’exprime dans une langue incompréhensible</li>
+<li>commence à se transformer en Skaven</li>
+</ul>
+</div>
+</section>
+<section id="objectif-des-pjs">
+<h3>Objectif des PJs</h3>
+<p>La nuit dernière, Damian, leur chef-sorcier, est mort de blessures infligés lors d’une attaque de Skavens.
+Avant de rendre son dernier souffle, son dernier commandement fut de vous envoyer dans l’Agartha pour une mission :</p>
+<div class="dice-list">
+<ul>
+<li>retrouver Erik, son fils, qui n’est pas encore revenu d’une expédition là-bas, avant de déplacer la communauté</li>
+<li>une relique suffisament puisant pour les aider à repousser les Skavens</li>
+<li>vous infiltrer derrière les lignes ennemis et semer la panique chez les Skavens</li>
+<li>trouver une source de nourriture près de laquelle votre communauté pourrait s’installer</li>
+<li>traquer le Skaven qui l’a mortellement blessé, et récupérer le collier de pouvoir qu’il lui a volé</li>
+<li>placer son corps embaumé dans la crypte de ses ancêtres, sans quoi il risque de revenir d’entre les morts</li>
+</ul>
+</div>
+<p>+ inclure 1 PNJ systématiquement dans scénario</p>
+<p>+ définir système de progression :
+combien de lieux avant d’atteindre objectif ?</p>
+</section>
+<section id="probl-mes-ouverts">
+<h3>Problèmes ouverts</h3>
+<p>-&gt; peut-être pas pertinent à tirer aléatoirement au début,
+plus logique dans l’exploration de tunnels ?</p>
+<div class="dice-list">
+<ul>
+<li>à pic</li>
+<li></li>
+</ul>
+</div>
+</section>
+<section id="rebondissement">
+<h3>Rebondissement</h3>
+</section>
+</section>
+<section id="personnages">
+<h2>Personnages</h2>
+<p>En début de partie, les joueurs se répartissent ces personnages,
+puis choisissent 4 talents dans la liste ci-dessous.</p>
+<div class="character">
+<section id="le-sub-cartographe">
+<h3>Le sub-cartographe</h3>
+<section id="nom">
+<h4>Nom</h4>
+<hr>
+</section>
+<section id="qui-tait-damian-pour-vous-">
+<h4>Qui était Damian pour vous ?</h4>
+<hr>
+</section>
+<section id="autre-question-personnelle-">
+<h4>Autre question personnelle ?</h4>
+<hr>
+</section>
+<section id="talents">
+<h4>Talents</h4>
+<hr> <hr> <hr> <hr> <hr> <hr> <hr>
+</section>
+<section id="r-gles-sp-ciales">
+<h4>Règles spéciales</h4>
+<p>gère la carte + sait comment réagir aux dangers</p>
+<p>+1 Talent : s’orienter
+7-9 -&gt; 1 au choix:
+10+ -&gt; 2 au choix:</p>
+<ul>
+<li>progression rapide</li>
+<li>rajouter tunnel entre 2 lieux distants de max 2 tunnels</li>
+<li>choix type de tunnel</li>
+</ul>
+</section>
+</section>
+</div>
+<div class="character">
+<section id="l-arch-o-magasinier">
+<h3>L’archéo-magasinier</h3>
+<section id="nom-2">
+<h4>Nom</h4>
+<hr>
+</section>
+<section id="qui-tait-damian-pour-vous--2">
+<h4>Qui était Damian pour vous ?</h4>
+<hr>
+</section>
+<section id="autre-question-personnelle--2">
+<h4>Autre question personnelle ?</h4>
+<hr>
+</section>
+<section id="talents-2">
+<h4>Talents</h4>
+<hr> <hr> <hr> <hr> <hr> <hr> <hr>
+</section>
+<section id="r-gles-sp-ciales-2">
+<h4>Règles spéciales</h4>
+<p>gère inventaire / réparti équipement entre joueurs / comprend reliques</p>
+<ul>
+<li>1 Talent : connaissance des reliques
+Si étudie indices:
+10+ =&gt; x2
++1 nature de relique,
++1 effet OU 1 lien</li>
+</ul>
+<p>à revoir</p>
+</section>
+</section>
+</div>
+<div class="character">
+<section id="le-tempo-magus">
+<h3>Le tempo-magus</h3>
+<section id="nom-3">
+<h4>Nom</h4>
+<hr>
+</section>
+<section id="qui-tait-damian-pour-vous--3">
+<h4>Qui était Damian pour vous ?</h4>
+<hr>
+</section>
+<section id="autre-question-personnelle--3">
+<h4>Autre question personnelle ?</h4>
+<hr>
+</section>
+<section id="talents-3">
+<h4>Talents</h4>
+<hr> <hr> <hr> <hr> <hr> <hr> <hr>
+</section>
+<section id="r-gles-sp-ciales-3">
+<h4>Règles spéciales</h4>
+<p>la cordée</p>
+<p>1 utilisation (globale) d’un ces pouvoirs par 30min de jeu (heure d’utilisation notée sur feuille PJ), et pas 2x de suite le même</p>
+<ul>
+<li>déflagration Vril : bourasque électrique capable de projeter plusieurs adversaires en l’air</li>
+<li>mur de métal : fait sortir 4d6 barres de fer du sol</li>
+<li>retour en arrière dans le temps avec tous ceux encordés (au moment de l’utilisation)
+cf. FAQ
+en restant sur place -&gt; paradoxe</li>
+</ul>
+</section>
+</section>
+</div>
+<section id="liste-de-talents">
+<h3>Liste de Talents</h3>
+<ul>
+<li>observer</li>
+<li>bricoler</li>
+<li>se cacher</li>
+<li>escalader</li>
+<li>combattre</li>
+<li>intimider</li>
+<li>soigner</li>
+<li>pister</li>
+<li>sprinter / parkour</li>
+<li>être fort</li>
+<li>tromper</li>
+</ul>
+</section>
+<section id="pulsions">
+<h3>Pulsions</h3>
+<p>à simplifier</p>
+<div class="impulses">
+<p><s>⚀</s></p>
+<ul>
+<li><input type="checkbox" id="checkbox0"><label for="checkbox0">blabla</label></li>
+<li><input type="checkbox" id="checkbox1"><label for="checkbox1">blabla</label></li>
+</ul>
+<p><s>⚁</s></p>
+<ul>
+<li><input type="checkbox" id="checkbox2"><label for="checkbox2">blabla</label></li>
+<li><input type="checkbox" id="checkbox3"><label for="checkbox3">blabla</label></li>
+</ul>
+<p><s>⚂</s></p>
+<ul>
+<li><input type="checkbox" id="checkbox4"><label for="checkbox4">blabla</label></li>
+<li><input type="checkbox" id="checkbox5"><label for="checkbox5">blabla</label></li>
+</ul>
+<p><s>⚃</s></p>
+<ul>
+<li><input type="checkbox" id="checkbox6"><label for="checkbox6">blabla</label></li>
+<li><input type="checkbox" id="checkbox7"><label for="checkbox7">blabla</label></li>
+</ul>
+<p><s>⚄</s></p>
+<ul>
+<li><input type="checkbox" id="checkbox8"><label for="checkbox8">blabla</label></li>
+<li><input type="checkbox" id="checkbox9"><label for="checkbox9">blabla</label></li>
+</ul>
+<p><s>⚅</s></p>
+<ul>
+<li><input type="checkbox" id="checkbox10"><label for="checkbox10">blabla</label></li>
+<li><input type="checkbox" id="checkbox11"><label for="checkbox11">blabla</label></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="syst-me">
+<h2>Système</h2>
+<div class="rule-focus">
+<p>2d6 +1/Talent +1/Équipement</p>
+</div>
+<p>Lorsqu’un PJ tente de réaliser une action risquée,
+le joueur annonce quels Talents et équipements vont l’aider dans cette situation.
+Il lance ensuite deux dés à six faces auquel il additionne le nombre de ces compétences &amp; objets.
+Le MJ peut refuser certains Talents / équipements s’il considère qu’ils n’aideront pas beaucoup le Pj dans ce contexte.</p>
+<p>Le MJ interprête le résultat du jet ainsi, et décrit la scène qui s’ensuit :</p>
+<ul>
+<li><strong>6 ou moins</strong> : c’est un échec !</li>
+<li>de <strong>7 à 9</strong>, le MJ choisit :
+<ul>
+<li><strong>soit</strong> d’interprêter directement le résultat comme une réussite partielle, ou entrainant des complication : « oui, mais… »</li>
+<li><strong>soit</strong> de proposer un choix au PJ → l’action ne sera réussie que s’il accepte un « coût » définit par le MJ :
+faire du bruit, casser quelque chose, être blessé…</li>
+</ul>
+</li>
+<li><strong>10 ou plus</strong> : c’est une réussite parfaite !</li>
+</ul>
+<p>+ Impulses: cf. feuille -&gt; Donne +2 au jet qui s’ensuit</p>
+</section>
+<section id="exploration">
+<h2>Exploration</h2>
+<section id="tunnels">
+<h3>Tunnels</h3>
+<div class="dice-list">
+</div>
+</section>
+<section id="lieux-tranges">
+<h3>Lieux étranges</h3>
+<div class="dice-list">
+<ul>
+<li>un large puit, dont on ne voit aucune des 2 extrémités, et dont il faut longer le vide pour ateindre l’autre côté</li>
+<li>un cimetière, avec des croix sur chaque tombe et une chapelle</li>
+<li>une très grande serre en verre avec une végétation luxuriante à l’intérieur</li>
+<li>une épave d’avion</li>
+<li>une péniche sur un cours d’eau</li>
+<li>un moulin au milieu d’une vigne</li>
+<li>un village suspendu à la voûte d’une salle, abandonné</li>
+<li>un temple à étages de type Ziggurat</li>
+</ul>
+</div>
+<p>(si résultat déjà obtenu, on lit le suivant)</p>
+<p>À chaque lieu associer :</p>
+<div class="dice-list">
+<ul>
+<li>loot -&gt; cf. table équipement</li>
+<li>idem</li>
+<li>idem</li>
+<li>une relique -&gt; cf. table</li>
+<li>présence Skaven : <s>⚀</s>, <s>⚁</s>=, <s>⚂</s>, <s>⚃</s>, <s>⚄</s>, <s>⚅</s>.</li>
+<li>un PNJ -&gt; cf. table</li>
+</ul>
+</div>
+<p>1d6 tunnel types &amp; écosystèmes :</p>
+<div class="dice-list">
+<ul>
+<li>terre : humide, racines,
+-&gt; eau</li>
+<li>pavés &amp; moellons : colonnes, arches, résonne
+-&gt; +1 table mysticisme</li>
+<li>roche : escarpé, glissant,
+-&gt; +1 table rencontre</li>
+<li>béton : poussière, armature d’acier visible,
+-&gt; -1 table anomalies Vril</li>
+<li>rails : briques, aclôves,
+-&gt; pas Skavens</li>
+<li>métal : coursives, escaliers, cables, rembardes…
+-&gt; pas Pollen</li>
+</ul>
+</div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nombre de sorties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><s>⚀</s></td>
+<td>cul de sac</td>
+</tr>
+<tr>
+<td><s>⚁</s> <s>⚂</s></td>
+<td>1 autre</td>
+</tr>
+<tr>
+<td><s>⚃</s> <s>⚄</s></td>
+<td>2 autres</td>
+</tr>
+<tr>
+<td><s>⚄</s></td>
+<td>3 autres</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="loot">
+<h2>Loot</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><s>⚀</s> <s>⚁</s></th>
+<th><s>⚂</s> <s>⚃</s></th>
+<th><s>⚄</s> <s>⚅</s></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><s>⚀</s></td>
+<td>1 couverture couleur roche</td>
+<td>1d3 masques à gaz 1d6/2</td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚁</s></td>
+<td>1d3 piolets d’escalade</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚂</s></td>
+<td>1 trousse à outils</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚃</s></td>
+<td>1d3 torches</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚄</s></td>
+<td>1 arme acérée</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚅</s></td>
+<td>1 arc &amp; quelques flêches</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>(si résultat déjà obtenu, lire le suivant dans la liste)</p>
+<section id="reliques">
+<h3>Reliques</h3>
+<p>apparence (et où les trouver) x effet:</p>
+<div class="dice-list">
+<ul>
+<li>une télécommande TV</li>
+<li>un os</li>
+<li>une lanterne de papier</li>
+<li>une boussole</li>
+<li>une boîte d’allumettes</li>
+<li>une bible annotée de symboles kabalistiques</li>
+</ul>
+</div>
+<div class="dice-list">
+<ul>
+<li>provoque la réorganisation des tunnels</li>
+<li>commande aux fourmis géantes</li>
+<li>provoque la pétrification / tunnels avalent êtres vivants</li>
+<li>ré-oriente la gravité</li>
+<li>appele une tempête de Vril</li>
+<li>contrôle le Pollen</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="table-narrative">
+<h2>Table narrative</h2>
+<p>Intro: késako ?
+fonctionnement dans les grandes lignes</p>
+<p>8 directions scénaristiques
+Pour chacune prévoir un compteur de progression</p>
+<div class="narrative-axes">
+<table>
+<thead>
+<tr>
+<th></th>
+<th><s>⚀</s> <s>⚁</s></th>
+<th><s>⚂</s> <s>⚃</s></th>
+<th><s>⚄</s> <s>⚅</s></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><s>⚀</s> <s>⚁</s></td>
+<td><strong>Fantômes</strong></td>
+<td><strong>Reorg tunnels</strong></td>
+<td><strong>Rencontre</strong></td>
+</tr>
+<tr>
+<td><s>⚂</s> <s>⚃</s></td>
+<td><strong>Vestiges</strong></td>
+<td>Au choix</td>
+<td><strong>Saison rouge</strong></td>
+</tr>
+<tr>
+<td><s>⚄</s> <s>⚅</s></td>
+<td><strong>Ombres &amp; lumières</strong></td>
+<td><strong>Danger naturel</strong></td>
+<td><strong>Menace Skaven</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Notez que dans cette table les scores les plus élévés,
+associés en général à des actions réussies des PJs,
+correspondent à des complications de l’histoire,
+tandis qu’à l’inverse les plus petits scores entrainent des opportunités.</p>
+<p>Au choix =&gt; rien OK</p>
+<div class="narrative-axe">
+<section id="fant-mes">
+<h4>Fantômes</h4>
+<p>Damian
+<input type="checkbox" id="checkbox15"><label for="checkbox15">aperçu par un PJ dans un tunnel</label>
+<input type="checkbox" id="checkbox14"><label for="checkbox14">les prévient d’un danger</label>
+<input type="checkbox" id="checkbox13"><label for="checkbox13">se manifeste physiquement pour aider PJs</label>
+<input type="checkbox" id="checkbox12"><label for="checkbox12">sauve un PJ</label></p>
+</section>
+</div>
+<div class="narrative-axe">
+<section id="vestiges-">
+<h4>Vestiges :</h4>
+<div class="dice-list">
+<ul>
+<li>fresque</li>
+<li>cadavre avec loot</li>
+<li>statue</li>
+<li>parchemins</li>
+<li>vitraux</li>
+</ul>
+</div>
+</section>
+</div>
+<div class="narrative-axe">
+<section id="ombres-lumi-res">
+<h4>Ombres &amp; lumières</h4>
+</section>
+</div>
+<div class="narrative-axe">
+<section id="reorg-tunnels">
+<h4>Reorg tunnels</h4>
+<p>due au Vril -&gt; Pair/impar : suppression tunnel OU swap 2 lieux</p>
+<p>+ risque augmente au fil de la partie ?</p>
+</section>
+</div>
+<div class="narrative-axe">
+<section id="danger-naturel">
+<h4>Danger naturel</h4>
+<p>1d3 anomalies Vril :</p>
+<ul>
+<li><s>⚀</s> <s>⚁</s> décharge de Vril -&gt; Pair / impair : sol électrique / devient temporairement liquide -&gt; se réfugier sur surface non conductrice</li>
+<li><s>⚂</s> <s>⚃</s> gravité change de direction -&gt; attachez-vous !</li>
+<li><s>⚄</s> <s>⚅</s> une tempête, avec un vent extrèmement violent, et une chance sur deux (pair / impair)
+de provoquer l’arrivée d’eau : Pair / impair : s’écoule d’en haut / monte par le bas</li>
+</ul>
+</section>
+</div>
+<div class="narrative-axe">
+<section id="rencontre">
+<h4>Rencontre</h4>
+<div class="dice-list">
+<ul>
+<li>PNJ -&gt; cf. table</li>
+<li>idem</li>
+<li>Faune: colonne de fourmis géantes -&gt; chut &amp; pas bouger</li>
+<li>Faune:</li>
+<li>golem de pierre pacifique -&gt; parcourt grandes distances pour éricher un tumulus de pierres bien précises</li>
+</ul>
+</div>
+</section>
+</div>
+<div class="narrative-axe">
+<section id="saison-rouge-">
+<h4>Saison rouge :</h4>
+<p><input type="checkbox" id="checkbox19"><label for="checkbox19">poche de spores de Pollen flottante, stagnante, en travers du chemin des PJs</label>
+<input type="checkbox" id="checkbox18"><label for="checkbox18">tapis de mousse -&gt; gluant collant superglue,</label>
+Visible mais trop tard : (pair / impair) fourmi géante / Skaven digérée
+<input type="checkbox" id="checkbox17"><label for="checkbox17">poche de gaz-Pollen toxique et inflammable</label>
+<input type="checkbox" id="checkbox16"><label for="checkbox16">infection d’un personnage (au hasard, incluant PNJs du groupe) -&gt; début de transformation Skaven</label></p>
+</section>
+</div>
+<div class="narrative-axe">
+<section id="menace-skaven">
+<h4>Menace Skaven</h4>
+<p>1 des PJs peut faire 1 jet pour les repérer
+<input type="checkbox" id="checkbox23"><label for="checkbox23">juste des rats</label>
+<input type="checkbox" id="checkbox22"><label for="checkbox22">éclaireur Skaven -&gt; même type de rencontre tant que PJs pas repérés, ou éclaireur éliminé avant de prévenir sa meute</label>
+Tactique: charge / reste à distance et tire à l’arc / flare
+<input type="checkbox" id="checkbox21"><label for="checkbox21">meute Skaven -&gt; Pair / impar -&gt; cachés ou rôdent. Tactique : chargent / canardent &amp; encerclent / grenades Pollen toxico-explosif</label>
+<input type="checkbox" id="checkbox20"><label for="checkbox20">piège Skaven -&gt; fosse recouverte / bloquent PJs dans lieu étroit /</label></p>
+</section>
+</div>
+</section>
+<section id="campagne-cach-e">
+<h2>Campagne cachée</h2>
+<div class="rule-focus">
+<p>Section confidentielle ! Réservée au MJ !</p>
+</div>
+<p>Ce jeu est d’abord conçu pour être joué en <em>one-shot</em>,
+des parties courtes sans lien aucun, et à chaque fois différentes.</p>
+<p>Si toutefois au terme de votre première session de <strong>Sous terre</strong> vous souhaitez en faire d’autres,
+avec au moins certains joueurs récurrents, cette section vous propose d’ajouter une autre dimension
+à vos parties en tissant une histoire entre elles.</p>
+<p>Si l’idée vous séduit, surtout n’en dites rien à vos joueurs !
+Ils n’en seront que plus conquis de le réaliser petit à petit.</p>
+<section id="les-indices-distiller-aux-pjs">
+<h3>Les indices à distiller aux PJs</h3>
+<ul>
+<li>les PJs peuvent se souvenir de choses qu’ils on vu lors de parties précédentes,
+et même d’énigmes, de Reliques ou de mots magiques</li>
+<li>un PNJ appele un PJ par le nom de son ancien personnage</li>
+</ul>
+</section>
+<section id="l-explication">
+<h3>L’explication</h3>
+</section>
+<section id="conseils">
+<h3>Conseils</h3>
+<p>À chaque fin de session, notez ceci sur une feuille avant d’oublier :</p>
+<ul>
+<li>les noms des PJs</li>
+<li>les associations des Reliques à leurs pouvoirs</li>
+<li>une ou deux insultes de …</li>
+<li>les mots magiques appris par le groupes</li>
+</ul>
+</section>
+</section>
+<section id="faq">
+<h2>FAQ</h2>
+<p>Le jeu est conçu pour être rejoué,
+chaque partie permettant aux joueurs de connaître un peu mieux l’Agartha,
+ses pièges et ses trésors.</p>
+<section id="paradoxes-temporels">
+<h4>Paradoxes temporels</h4>
+<p>Pour rappel, les règles du retour dans le passé du tempo-magus sont :</p>
+<ul>
+<li>seuls les individus <strong>en contact</strong> avec lui, directement ou via la cordée,
+ont conscience de ce retour en arrière.</li>
+<li>ces individus sont déplacé <strong>au même endroit</strong> dans le passé</li>
+</ul>
+<p>Dans la nouvelle chronologie temporelle,
+les voyageurs du temps disparaissent donc brusquement de leur position initiale à ce moment là
+pour être « téléportés » au lieu de départ de leur saut temporel.</p>
+<p>Les PJs et PNJs qui n’ont pas voyagés répétront les même gestes que précédement,
+jusqu’à que les actions des voyageurs du temps les impactent.
+Ils retrouvent alors toute liberté de comportement.</p>
+<p>Le MJ peut demander au cartographe et à l’archéo-magasinier,
+s’ils sont « victimes » d’un saut dans le temps sans en être conscients,
+de supprimer certaines des leurs notes.</p>
+</section>
+<section id="licence-et-sources">
+<h3>Licence et sources</h3>
+<p><a class="float-left" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License Attribution 4.0 International" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+Ce jeu a été conçu par Lucas Cimon et est sous licence <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+<p>Si vous le testez, songez à me laisser un petit commentaire sur <a href="https://chezsoi.org/lucas/blog">https://chezsoi.org/lucas/blog</a></p>
+<p>Merci à Estelle, Henri &amp; Matthieu pour le playtest !</p>
+<p><strong>Polices</strong>:</p>
+<ul>
+<li>Odachi par <a href="https://tugcu.co">Mehmet Reha Tugcu</a></li>
+<li><a href="https://www.fontspace.com/shaashimov/tribal-garamond">Tribal Garamond</a> par Shaashimov</li>
+</ul>
+<p><strong>Inspis :</strong> les jeux de rôle Pbta, Lady Blackbird, l’Île Mystérieuse &amp; Warhammer pour les Skavens,
+les jeux vidéo Tomb Raider &amp; Left 4 Dead pour le groupe soudé et complémentaire,
+le mange Dédale de Takamichi,
+la série “The Lost Room” pour les reliques, ces articles de Dark Roasted Blend pour l’ambiance :
+<a href="http://www.darkroastedblend.com/2009/05/underground-cities-and-bunkers-living.html">Underground Cities and Bunkers: Living Down Below</a>,
+<a href="http://www.darkroastedblend.com/2007/07/abandoned-tunnels.html">Abandoned Tunnels &amp; Vast Underground Spaces</a></p>
+<p><strong>Illus :</strong></p>
+<ul>
+<li><a href="https://pixabay.com/photos/cave-tunnel-underground-entrance-94193/">https://pixabay.com/photos/cave-tunnel-underground-entrance-94193/</a></li>
+<li><a href="https://www.deviantart.com/shadowdee/art/Tunnel-Guard-613456501">https://www.deviantart.com/shadowdee/art/Tunnel-Guard-613456501</a></li>
+<li>(non CC) <a href="https://www.deviantart.com/matchack/art/Surreal-Valley-340209159">https://www.deviantart.com/matchack/art/Surreal-Valley-340209159</a></li>
+<li><a href="https://www.deviantart.com/hunternif/art/DB-S05D09-696229450">https://www.deviantart.com/hunternif/art/DB-S05D09-696229450</a></li>
+</ul>
+<p><strong>Music :</strong> <a href="https://www.youtube.com/playlist?list=PLLgE-ga3W_kauLucuvv2p4ambSv_qkpyU">playlist Youtube</a></p>
+<ul>
+<li>Zack Hemsey - “The Way (Instrumental)”</li>
+<li>Fever Ray - Keep the Streets Empty For Me</li>
+<li>Wardruna - Völuspá</li>
+<li>Ryuichi Sakamoto - The Revenant Main Theme</li>
+</ul>
+<style type="text/css">
+@font-face {
+  font-family: Odachi;
+  src: url('fonts/Odachi.woff') format('woff');
+}
+@font-face {
+  font-family: TribalGaramond;
+  src: url('fonts/Tribal Garamond.ttf') format('truetype');
+}
+
+body {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 4rem;
+  font-family: Calibri,Arial,sans-serif;
+  font-size: .8rem;
+  line-height: 1.4;
+}
+section { break-inside: avoid; }
+h1, h2, h3, h4 {
+  font-family: TribalGaramond;
+  font-weight: normal;
+  margin-bottom: 0;
+  clear: both;
+}
+h1 {
+  font-family: Odachi;
+  font-size: 5rem;
+  text-align: center;
+  margin: 2rem;
+}
+h2 { font-size: 3rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.2rem; }
+p, ol, ul { margin: .3rem 0; }
+ol, ul { padding-inline-start: 1rem; }
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+dt { flex: 1 0 8%; font-weight: bold; }
+dd { flex: 1 0 92%; margin-left: 0; }
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-style: hidden; /* supprime les bordures autour du tableau */
+  margin: 0 auto;
+  page-break-inside: avoid;
+}
+th, td {
+  padding: 0;
+  border: 2px solid black;
+  text-align: center;
+}
+s { /* dices */
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: .8;
+  vertical-align: bottom;
+}
+
+.dice-list > ul > li { list-style-type: none; }
+.dice-list > ul > li:nth-child(1)::before { content: '⚀'; }
+.dice-list > ul > li:nth-child(2)::before { content: '⚁'; } 
+.dice-list > ul > li:nth-child(3)::before { content: '⚂'; } 
+.dice-list > ul > li:nth-child(4)::before { content: '⚃'; } 
+.dice-list > ul > li:nth-child(5)::before { content: '⚄'; } 
+.dice-list > ul > li:nth-child(6)::before { content: '⚅'; } 
+.dice-list > ul > li::before {
+  font-size: 1.2rem;
+  line-height: .8;
+  vertical-align: bottom;
+  padding-right: .5rem;
+}
+
+#pnjs th, #pnjs td,
+#loot th, #loot td { padding: .5rem; }
+
+.character {
+  page-break-inside: avoid;
+}
+.character h3, .character h4 {
+  font-family: Odachi;
+}
+.character hr {
+  margin-top: 2rem;
+}
+
+.rule-focus {
+  font-family: TribalGaramond;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+
+.narrative-axes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.narrative-axes table, .narrative-axes thead, .narrative-axes tbody { width: 100%; }
+.narrative-axes td {
+  width: 30%;
+  height: 0;
+  padding: 13% 0; /* pour forcer un ratio carré */
+}
+.narrative-axes th { padding: 3% 0; }
+.narrative-axes td:first-child { width: 10%; }
+.narrative-axes { font-size: 1.5rem; }
+.narrative-axes s { font-size: 2rem; }
+
+.narrative-axe {
+  border: 1px solid black;
+  padding: .5rem;
+  margin: .3rem;
+  width: 45%;
+}
+.narrative-axe h3, .narrative-axe h4 { margin: 0; }
+.narrative-axe:nth-child(2n+1) { float: left; }
+.narrative-axe:nth-child(2n)   { float: right; }
+
+.impulses { columns: 6; }
+.impulses ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.impulses s {
+  display: block;
+  font-size: 1.8rem;
+  text-align: center;
+}
+</style>
+</section>
+</section>
+</section>
+</body>
+</html>

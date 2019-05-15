@@ -1,4 +1,6 @@
-<!-- Tasks:
+<!--
+https://www.deviantart.com/fernand0fc/art/A-laser-rifle-730311561
+
 Icônes:
   * https://game-icons.net/delapouite/originals/solar-system.html
   * https://game-icons.net/delapouite/originals/astronaut-helmet.html
@@ -248,7 +250,8 @@ lance 2 dés + **Fin**. Sur 7-9, choisis 1 option ci-dessous. Sur 10+, choisis-e
 
 #### [ ]  CERNER QUELQU’UN
 **Quand tu essaies de cerner quelqu’un lors d’une situation tendue**, 
-lance 2 dés + **Fin**. Pendant que tu discutes avec lui, tu peux lui poser 3 questions (sur 10+) ou 1 seule (sur 7-9) :
+lance 2 dés + **Fin**. Pendant que tu discutes avec lui, tu peux lui poser des questions auquelles il doit répondre sans mentir.
+3 sur 10+, ou 1 seule sur 7-9 :
 - est-ce que ton personnage dit la vérité ?
 - qu’est-ce que ton personnage ressent vraiment ? 
 - qu’est-ce que ton personnage a l’intention de faire ? 

@@ -35,8 +35,14 @@ script:
 - cd latour
 - node ../md2html.js latour.md > index.html
 - cd -
+- cd LesNonMorts
+- node ../md2html.js LesNonMorts.md > index.html
+- cd -
 - cd plus-de-place-en-enfer
 - node ../md2html.js plus-de-place-en-enfer.md > index.html
+- cd -
+- cd sous-terre
+- node ../md2html.js sous-terre.md > index.html
 - cd -
 - cd scavengers
 - node ../md2html.js adj-scavengers.md > index.html
