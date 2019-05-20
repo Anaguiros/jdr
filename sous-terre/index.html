@@ -6,30 +6,138 @@
 </head>
 <body>
 <!--
-A terme : jeu-écran ?
+# RAF: définir MVP prochaine partie
+- fiche de PJ imprimable (talents imposés ?)
+- règles PNJs finies
+- règle scénario finies
+- règles de navigation dans les tunnels : PAS découverte des lieux au hasard ? subcarto en connaissent au moins 1 ou 2 de nom ?
+- gimmicks/manie : juron ; bricoler / activer reliques ; explorer passages secrets & lieux inaccessibles
+  => lorsqu'appliqué, n'importe quel joueur autour de la table peut lancer 1d6 -> si impair +1 jeton bravoure pour le PJ
+- mécanique de jeu pour Ombre & Lumières
 
-https://www.deviantart.com/fernand0fc/art/Roadrunner-718083502
-https://www.deviantart.com/fernand0fc/art/A-huntress-712597141
-https://www.deviantart.com/fernand0fc/art/A-explorer-from-the-canada-wasteland-690924561
-https://www.deviantart.com/fernand0fc/art/Pronto-comenzara-la-caceria-707572305
-https://www.deviantart.com/fernand0fc/art/Tribal-from-the-wasteland-741337493
-https://www.deviantart.com/fernand0fc/art/Sketch-776467782
+# RAF: mise en forme
+- pronoms à rendre + inclusifs
+- indiquer "confidentiel" sur les pages réservées au MJt
 
-Si satisfait, demander feedback à http://hu-mu.blogspot.com
+
+## Puzzles
+
+Idées en vrac:
+- PJs découvrent 1 à 3 mots magiques (qu'ils inventent _in game_) qui chacun déclenche un effet différent
+- portes activables à l'énonciation d'un mot magique
+- basé sur contrôle du niveau d'eau
+- se jeter dans le vide
+- magie qui transforme la pierre en autre chose
+- colosse à vaincre dans une salle
+- énigme de réflection de la lumière
+- pattern/format commun à plusieurs mécanismes : suite de 3 à 6 d6 (diégétique : indique placement de doigts de la main, 6 => paume)
+- grille de sudoku sans lignes, avec des points représentant des d6
+
+Tom Hermans advice:
+  * A puzzle should be inviting and rewarding
+  * Use the smallest amount of space and puzzle pieces for the puzzle will work
+  * by teaching new things in every levels, puzzles become much more focused and elegant
+  * Puzzles should be a little bit inaccessible if they want to evoke a feeling of mystery and sensation to drive the player
+  * + continuity & foreshadowing
+
+Mes contraintes créatives:
+  * _environmental_ + se baser sur la faune / flore
+  * la majorité des puzzles ne doit pas nécessiter d'item mais une simple connaissance des règles / de l'environnement / de mots magiques
+  * faire découvrir aux joueurs des "raccourcis" pour des tâches laborieuses
+  * certaines énigmes seront visuelles et incluses dans le jeu
 
 # Playtest n°1 ~4h30
-* ++mystères & énigmes
+* ++mystères & énigmes (ex: tapis de mousse collante)
 * bon nombre Talents
 * pulsions trop compliquées & fréquents -> à simplifier
 * quelques améliorations de pouvoirs
+
+Illus à deepdreamer: https://pixabay.com/photos/cave-tunnel-underground-entrance-94193/ & plantes-fascinantes-hydnora-africana.jpg
+
+Si satisfait, demander feedback à http://hu-mu.blogspot.com ?
+
+A terme : jeu-écran ?
 -->
 <section id="sous-terre">
 <h1>Sous terre</h1>
-<p>Ceci est un jeu de rôle d’aventures et d’exploration, pour de courts scénarios de quelques heures, avec un meneur et 3 joueurs.
-La mécanique de jeu fait progresser l’histoire semi-aléatoirement,
-et l’accent est mis sur l’inventivité des PJs pour résoudre les obstacles.</p>
+<p>Ceci est un jeu de rôle d’aventures et d’exploration avec un meneur et 3 joueurs.
+L’histoire progresse semi-aléatoirement,
+et l’accent est mis sur des énigmes-puzzles et l’inventivité des PJs pour résoudre les obstacles.</p>
+<p>Le jeu est conçu pour des sessions courtes mais également pour être éminément rejouable,
+chaque partie permettant aux joueurs de connaître un peu mieux l’Agartha, ses pièges et ses trésors.</p>
 <p>Il nécessite 2 dés à 6 faces et quelques pions quelconques,
 et seulement 10min de préparation du MJ.</p>
+<div class="toc">
+<!-- Pour mettre à jour ce sommaire:
+    markdown-toc --indent "    " --maxdepth 3 -i sous-terre.md
+Certaines URLs génrées sont incompatibles avec celles produites par md2html, ex: puzzles-probl-mes-ouverts
+-->
+<!-- toc -->
+<ul>
+<li><a href="#univers">Univers</a></li>
+<li><a href="#deroulement">Déroulement</a></li>
+<li><a href="#scenario">Scénario</a>
+<ul>
+<li><a href="#pnjs">PNJs</a></li>
+<li><a href="#objectif-des-pjs">Objectif des PJs</a></li>
+<li><a href="#rebondissement-majeur">Rebondissement majeur</a></li>
+<li><a href="#fin">Fin</a></li>
+</ul>
+</li>
+<li><a href="#debut-de-partie">Début de partie</a>
+<ul>
+<li><a href="#le-sub-cartographe">Le sub-cartographe</a></li>
+<li><a href="#larcheo-magasinier">L’archéo-magasinier</a></li>
+<li><a href="#le-tempo-magus">Le tempo-magus</a></li>
+<li><a href="#liste-de-talents">Liste de Talents</a></li>
+</ul>
+</li>
+<li><a href="#systeme">Système</a></li>
+<li><a href="#exploration">Exploration</a>
+<ul>
+<li><a href="#tunnels">Tunnels</a></li>
+<li><a href="#lieux-etranges">Lieux étranges</a></li>
+</ul>
+</li>
+<li><a href="#table-narrative">Table narrative</a></li>
+<li><a href="#puzzles--problemes-ouverts">Puzzles &amp; problèmes ouverts</a>
+<ul>
+<li><a href="#indices">Indices</a></li>
+</ul>
+</li>
+<li><a href="#trouvailles">Trouvailles</a>
+<ul>
+<li><a href="#reliques">Reliques</a></li>
+</ul>
+</li>
+<li><a href="#campagne-cachee">Campagne cachée</a>
+<ul>
+<li><a href="#les-indices-a-distiller-aux-pjs">Les indices à distiller aux PJs</a></li>
+<li><a href="#lexplication">L’explication</a></li>
+<li><a href="#conseils">Conseils</a></li>
+</ul>
+</li>
+<li><a href="#faq">FAQ</a>
+<ul>
+<li><a href="#comment-gerer-la-mort-et-les-blessures-">Comment gérer la mort et les blessures ?</a></li>
+<li><a href="#comment-gerer-les-paradoxes-temporels-">Comment gérer les paradoxes temporels ?</a></li>
+<li><a href="#licence-sources--inspirations">Licence, sources &amp; inspirations</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+</div>
+<!-- Not-CC, inspi seulement: -->
+<img class="no-max-width" src="img/surreal_valley_by_matchack_d5mjv2f-pre.jpg">
+<img src="img/illus_descente.jpg"><!-- FROM: http://www.aka-games.fr -->
+<img src="img/big-bad-rat_by_scebiqu.jpg">
+<img class="no-max-width" src="img/237.jpg">
+<img class="no-max-width" src="img/244.jpg">
+<img class="no-max-width" src="img/242.jpg">
+<img class="no-max-width" src="img/238.jpg">
+<img class="no-max-width" src="img/247.jpg">
+<!-- ^ ALL ABOVE FROM: https://www.xboxlive.fr/news_affiche_7846.html -->
+<img class="no-max-width" src="img/Ancient-Egyptian-Hall-of-Records-Ancient-Code.jpg">
 <section id="jeu-de-r-le-">
 <h4>Jeu de rôle ?</h4>
 <p>Si vous ne connaissez pas encore ce type de jeu, commencez par lire <a href="http://www.ffjdr.org/ce-devez-savoir-jeu-role/definitions-du-jeu-role/">la définition du JdR de la FFJdR</a>
@@ -40,20 +148,22 @@ Voici quelques abréviations employées par la suite :</p>
   <dt>PJ</dt><dd>Personnage d'un Joueur</dd>
   <dt>PNJ</dt><dd>Personnage Non Joueur, tous les autres personnages de l'histoire, incarnés par le MJ</dd>
   <dt>1d6</dt><dd>un dé à six faces</dd>
-  <dt>1d3</dt><dd>lancer un dé à six faces
-→ sur un <s>⚀</s> ou un <s>⚁</s>, le résultat est 1,
-→ sur un <s>⚂</s> ou un <s>⚃</s>, le résultat est 2,
-→ sur un <s>⚄</s> ou un <s>⚅</s>, le résultat est 3</dd>
-  <dt>1d2</dt><dd>lancer un dé à six faces → le résultat est 1 si le résultat est impair, 2 sinon</dd>
+  <dt>1d3</dt><dd class="arrow-list">lancer d'un dé à six faces :<ul>
+    <li>sur un <s>⚀</s> ou un <s>⚁</s>, le résultat est <strong>1</strong></li>
+    <li>sur un <s>⚂</s> ou un <s>⚃</s>, le résultat est <strong>2</strong></li>
+    <li>sur un <s>⚄</s> ou un <s>⚅</s>, le résultat est <strong>3</strong></li>
+  </ul></dd>
+  <dt>1d2</dt><dd>lancer un dé à six faces → le résultat est <strong>1</strong> si le résultat est impair, <strong>2</strong> sinon</dd>
 </dl>
 </section>
-<section id="univers">
-<h2>Univers</h2>
+<section id="le-monde-connu-des-pjs">
+<h2>Le monde connu des PJs</h2>
 <p>Suite à une catastrophe il y a bientôt un siècle, ce qui reste de l’humanité s’est réfugiée sous terre,
 dans un vaste réseau de tunnels.</p>
 <p>+ mention Vril, saison rouge / Pollen &amp; Skavens</p>
 <p>+ on y marchande en faisant du troc ou avec de l’or</p>
-<p>Agartha = dangereuse zone “instable”, parcouru d’une étrange énergie, le Vril</p>
+<p>Agartha = dangereuse zone “instable”, plus profondéùent sous terre, parcourue d’une étrange énergie, le Vril</p>
+<p>surface hors de vue -&gt; puits de lumière</p>
 </section>
 <section id="d-roulement">
 <h2>Déroulement</h2>
@@ -82,13 +192,31 @@ en combinant :</p>
 <ol>
 <li>des PNJs pré-générés aléatoirement</li>
 <li>un objectif principal des PJs</li>
-<li>des problèmes ouverts</li>
-<li>un rebondissement</li>
+<li>un rebondissement majeur</li>
+<li>une fin</li>
 </ol>
 <p>Suivez les instructions des sections correspondantes ci-dessous,
 et reportez sur une feuille dédiée les éléments de votre scénario.</p>
 <section id="pnjs">
 <h3>PNJs</h3>
+<table>
+<thead>
+<tr>
+<th><img src="img/otra_chica_con_rifle_by_fernand0fc_db81qfn-fullview.jpg" alt=""></th>
+<th><img src="img/roadrunner_by_fernand0fc_dbvj0ry-fullview.jpg" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="img/hermit_hunter_by_fernand0fc.jpg" alt=""></td>
+<td><img src="img/old_hunter_by_fernand0fc_db0epjk-fullview.jpg" alt=""></td>
+</tr>
+<tr>
+<td><img src="img/lightkeeper_by_fernand0fc.jpg" alt=""></td>
+<td><img src="img/el_verdugo_by_fernand0fc_dc3wofd-pre.jpg" alt=""></td>
+</tr>
+</tbody>
+</table>
 <p>Chaque PNJ doit représenter pour les joueurs un risque et une opportunité.
 Ils peuvent se révéler hostiles immédiatement ou les trahir plus tard,
 mais aussi être une aide précieuse.</p>
@@ -99,7 +227,7 @@ mais aussi être une aide précieuse.</p>
 <p>Durant une partie de <strong>Sous terre</strong>, les PJs vont être amenés à rencontrer entre 1 et 4 PNJs.
 Avant la partie, le MJ définit donc 4 PNJs aléatoirement, selon ces règles :</p>
 <ul>
-<li><strong>Nom</strong> :</li>
+<li><strong>Nom</strong> &amp; <strong>Illustration</strong> : lancez 2d6 dans cette table puis choisissez une des images 6 ci-dessus</li>
 </ul>
 <table>
 <thead>
@@ -114,38 +242,38 @@ Avant la partie, le MJ définit donc 4 PNJs aléatoirement, selon ces règles :<
 <tr>
 <td><s>⚀</s></td>
 <td>Johanna</td>
-<td>Friedrick</td>
-<td>Anselme</td>
+<td>Hortense</td>
+<td>Gina</td>
 </tr>
 <tr>
 <td><s>⚁</s></td>
 <td>Lisette</td>
-<td>Douglas</td>
-<td></td>
+<td>Mathilde</td>
+<td>Agnès</td>
 </tr>
 <tr>
 <td><s>⚂</s></td>
-<td>Hortense</td>
-<td></td>
-<td></td>
+<td>Eloïse</td>
+<td>Cora</td>
+<td>Joachim</td>
 </tr>
 <tr>
 <td><s>⚃</s></td>
-<td>Gina</td>
-<td></td>
-<td></td>
+<td>Douglas</td>
+<td>Friedrick</td>
+<td>Anselme</td>
 </tr>
 <tr>
 <td><s>⚄</s></td>
-<td>Mathilde</td>
-<td></td>
-<td></td>
+<td>Gaël</td>
+<td>Yann</td>
+<td>Darius</td>
 </tr>
 <tr>
 <td><s>⚅</s></td>
-<td>Agnès</td>
-<td></td>
-<td></td>
+<td>Joachim</td>
+<td>Abel</td>
+<td>Ghislain</td>
 </tr>
 </tbody>
 </table>
@@ -186,7 +314,7 @@ ou simplement qu’il les chasse colériquement, ses paroles et actions suffiron
 </ul>
 </div>
 <ul>
-<li><strong>Avantage / Possession</strong> :</li>
+<li><strong>Atout</strong> :</li>
 </ul>
 <div class="dice-list">
 <ul>
@@ -196,7 +324,15 @@ ou simplement qu’il les chasse colériquement, ses paroles et actions suffiron
 </ul>
 </div>
 <ul>
-<li><strong>levier</strong> pour les PJs :</li>
+<li><strong>Possessions</strong> : l’arme présente sur l’illustration s’il y en a, plus 2 objets tirés dans cette table :</li>
+</ul>
+<div class="dice-list">
+<ul>
+<li>bla</li>
+</ul>
+</div>
+<ul>
+<li><strong>Levier</strong> pour les PJs :</li>
 </ul>
 <div class="dice-list">
 <ul>
@@ -204,14 +340,27 @@ ou simplement qu’il les chasse colériquement, ses paroles et actions suffiron
 </ul>
 </div>
 <ul>
-<li><strong>Particularité</strong> :</li>
+<li>
+<p><strong>Est terrifié par</strong> :</p>
+</li>
+<li>
+<p><strong>Particularité</strong> :</p>
+</li>
 </ul>
 <div class="dice-list">
 <ul>
-<li>ne peut pas communiquer : muet ou s’exprime dans une langue incompréhensible</li>
+<li>ne peut pas communiquer : quasi-muet, ne s’exprime que par onomatopées primales</li>
 <li>commence à se transformer en Skaven</li>
 </ul>
 </div>
+<ul>
+<li>
+<p><strong>Peut orienter les PJs vers 1 indice</strong> :</p>
+</li>
+<li>
+<p><strong>Connaissance de l’environnement</strong> : 1 <em>move</em> qu’il connait et quel les PJs pourront apprendre en l’observant (ex: gousses de pollen vert pour ralentir chutes)</p>
+</li>
+</ul>
 </section>
 <section id="objectif-des-pjs">
 <h3>Objectif des PJs</h3>
@@ -231,28 +380,23 @@ Avant de rendre son dernier souffle, son dernier commandement fut de vous envoye
 <p>+ définir système de progression :
 combien de lieux avant d’atteindre objectif ?</p>
 </section>
-<section id="probl-mes-ouverts">
-<h3>Problèmes ouverts</h3>
-<p>-&gt; peut-être pas pertinent à tirer aléatoirement au début,
-plus logique dans l’exploration de tunnels ?</p>
-<div class="dice-list">
-<ul>
-<li>à pic</li>
-<li></li>
-</ul>
-</div>
+<section id="rebondissement-majeur">
+<h3>Rebondissement majeur</h3>
 </section>
-<section id="rebondissement">
-<h3>Rebondissement</h3>
+<section id="fin">
+<h3>Fin</h3>
+<p>-&gt; chacun cite sa scène / tirade préférée ?</p>
 </section>
 </section>
-<section id="personnages">
-<h2>Personnages</h2>
-<p>En début de partie, les joueurs se répartissent ces personnages,
+<section id="d-but-de-partie">
+<h2>Début de partie</h2>
+<p>En début de partie, les joueurs se répartissent les 3 personnages,
+en complétant les questions sur le feuille &amp; en suivant les instructions relatives à leur capacité spéciale,
 puis choisissent 4 talents dans la liste ci-dessous.</p>
 <div class="character">
 <section id="le-sub-cartographe">
 <h3>Le sub-cartographe</h3>
+<img src="img/yharnam_huntress_by_fernand0fc_dc6bxab-pre.jpg">
 <section id="nom">
 <h4>Nom</h4>
 <hr>
@@ -280,12 +424,14 @@ puis choisissent 4 talents dans la liste ci-dessous.</p>
 <li>rajouter tunnel entre 2 lieux distants de max 2 tunnels</li>
 <li>choix type de tunnel</li>
 </ul>
+<p>+ soigneur ?</p>
 </section>
 </section>
 </div>
 <div class="character">
 <section id="l-arch-o-magasinier">
 <h3>L’archéo-magasinier</h3>
+<img src="img/a_huntress_by_fernand0fc_dbs9fh1-fullview.jpg">
 <section id="nom-2">
 <h4>Nom</h4>
 <hr>
@@ -312,13 +458,18 @@ Si étudie indices:
 +1 nature de relique,
 +1 effet OU 1 lien</li>
 </ul>
-<p>à revoir</p>
+<p>-&gt; à revoir</p>
+<p>+ a un fusil (d’après illus)
++ 1-2 indices table 66 dès le départ ?
++ 1 relique de départ ?</p>
+<p>Seul à savoir lire &amp; écrire</p>
 </section>
 </section>
 </div>
 <div class="character">
 <section id="le-tempo-magus">
 <h3>Le tempo-magus</h3>
+<img src="img/tribal_from_the_wasteland_by_fernand0fc_dc9dfo5-pre.jpg">
 <section id="nom-3">
 <h4>Nom</h4>
 <hr>
@@ -337,7 +488,8 @@ Si étudie indices:
 </section>
 <section id="r-gles-sp-ciales-3">
 <h4>Règles spéciales</h4>
-<p>la cordée</p>
+<p>la cordée, précieuse corde tressée héritée de son maître</p>
+<p>un mot par pouvoir</p>
 <p>1 utilisation (globale) d’un ces pouvoirs par 30min de jeu (heure d’utilisation notée sur feuille PJ), et pas 2x de suite le même</p>
 <ul>
 <li>déflagration Vril : bourasque électrique capable de projeter plusieurs adversaires en l’air</li>
@@ -365,42 +517,6 @@ en restant sur place -&gt; paradoxe</li>
 <li>tromper</li>
 </ul>
 </section>
-<section id="pulsions">
-<h3>Pulsions</h3>
-<p>à simplifier</p>
-<div class="impulses">
-<p><s>⚀</s></p>
-<ul>
-<li><input type="checkbox" id="checkbox0"><label for="checkbox0">blabla</label></li>
-<li><input type="checkbox" id="checkbox1"><label for="checkbox1">blabla</label></li>
-</ul>
-<p><s>⚁</s></p>
-<ul>
-<li><input type="checkbox" id="checkbox2"><label for="checkbox2">blabla</label></li>
-<li><input type="checkbox" id="checkbox3"><label for="checkbox3">blabla</label></li>
-</ul>
-<p><s>⚂</s></p>
-<ul>
-<li><input type="checkbox" id="checkbox4"><label for="checkbox4">blabla</label></li>
-<li><input type="checkbox" id="checkbox5"><label for="checkbox5">blabla</label></li>
-</ul>
-<p><s>⚃</s></p>
-<ul>
-<li><input type="checkbox" id="checkbox6"><label for="checkbox6">blabla</label></li>
-<li><input type="checkbox" id="checkbox7"><label for="checkbox7">blabla</label></li>
-</ul>
-<p><s>⚄</s></p>
-<ul>
-<li><input type="checkbox" id="checkbox8"><label for="checkbox8">blabla</label></li>
-<li><input type="checkbox" id="checkbox9"><label for="checkbox9">blabla</label></li>
-</ul>
-<p><s>⚅</s></p>
-<ul>
-<li><input type="checkbox" id="checkbox10"><label for="checkbox10">blabla</label></li>
-<li><input type="checkbox" id="checkbox11"><label for="checkbox11">blabla</label></li>
-</ul>
-</div>
-</section>
 </section>
 <section id="syst-me">
 <h2>Système</h2>
@@ -423,34 +539,34 @@ faire du bruit, casser quelque chose, être blessé…</li>
 </li>
 <li><strong>10 ou plus</strong> : c’est une réussite parfaite !</li>
 </ul>
-<p>+ Impulses: cf. feuille -&gt; Donne +2 au jet qui s’ensuit</p>
 </section>
 <section id="exploration">
 <h2>Exploration</h2>
+<div class="rule-focus">
+<p>Section confidentielle ! À partir d’ici seul le MJ peut continuer à lire !</p>
+</div>
+<section id="faune-flore">
+<h3>Faune &amp; flore</h3>
+<p>créatures très vulnérables mais capapables d’inverser la gravité</p>
+<p><strong>Effet du gaz Pollen vert</strong> -&gt; catathonie + attire fourmis qui ramènent à la fourmilière</p>
+<p>Gousses de gaz bleu / vert -&gt; les petites bleues peuvent permettre de ralentir une chute par exemple</p>
+</section>
 <section id="tunnels">
 <h3>Tunnels</h3>
 <div class="dice-list">
+<ul>
+<li>cascade</li>
+</ul>
 </div>
 </section>
 <section id="lieux-tranges">
 <h3>Lieux étranges</h3>
-<div class="dice-list">
-<ul>
-<li>un large puit, dont on ne voit aucune des 2 extrémités, et dont il faut longer le vide pour ateindre l’autre côté</li>
-<li>un cimetière, avec des croix sur chaque tombe et une chapelle</li>
-<li>une très grande serre en verre avec une végétation luxuriante à l’intérieur</li>
-<li>une épave d’avion</li>
-<li>une péniche sur un cours d’eau</li>
-<li>un moulin au milieu d’une vigne</li>
-<li>un village suspendu à la voûte d’une salle, abandonné</li>
-<li>un temple à étages de type Ziggurat</li>
-</ul>
-</div>
-<p>(si résultat déjà obtenu, on lit le suivant)</p>
+<p>Quand il s’agit de déterminer un nouveau lieu, lancez 1d6 et reportez vous aux sections numérotées ci-dessous.
+Si le lieu correspondant a déjà été découvert par les PJs, sélectionnez celui qui suit directement, et ainsi de suite.</p>
 <p>À chaque lieu associer :</p>
 <div class="dice-list">
 <ul>
-<li>loot -&gt; cf. table équipement</li>
+<li>1 trouvaille -&gt; cf. table</li>
 <li>idem</li>
 <li>idem</li>
 <li>une relique -&gt; cf. table</li>
@@ -501,81 +617,79 @@ faire du bruit, casser quelque chose, être blessé…</li>
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="loot">
-<h2>Loot</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th><s>⚀</s> <s>⚁</s></th>
-<th><s>⚂</s> <s>⚃</s></th>
-<th><s>⚄</s> <s>⚅</s></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><s>⚀</s></td>
-<td>1 couverture couleur roche</td>
-<td>1d3 masques à gaz 1d6/2</td>
-<td></td>
-</tr>
-<tr>
-<td><s>⚁</s></td>
-<td>1d3 piolets d’escalade</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><s>⚂</s></td>
-<td>1 trousse à outils</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><s>⚃</s></td>
-<td>1d3 torches</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><s>⚄</s></td>
-<td>1 arme acérée</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><s>⚅</s></td>
-<td>1 arc &amp; quelques flêches</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>(si résultat déjà obtenu, lire le suivant dans la liste)</p>
-<section id="reliques">
-<h3>Reliques</h3>
-<p>apparence (et où les trouver) x effet:</p>
-<div class="dice-list">
-<ul>
-<li>une télécommande TV</li>
-<li>un os</li>
-<li>une lanterne de papier</li>
-<li>une boussole</li>
-<li>une boîte d’allumettes</li>
-<li>une bible annotée de symboles kabalistiques</li>
-</ul>
+<section id="1-le-puit-sans-fond">
+<h4>1- Le puit sans fond</h4>
+<p>Puit de lumière dont on ne distingue aucune des ses deux extrémités, et il faut longer le vide pour atteindre les autres tunnels y accédant.</p>
+<div class="open-problem">
+<p>Une des sorties de cette pièce est inaccessible via la corniche qui longe le lieu.</p>
 </div>
-<div class="dice-list">
-<ul>
-<li>provoque la réorganisation des tunnels</li>
-<li>commande aux fourmis géantes</li>
-<li>provoque la pétrification / tunnels avalent êtres vivants</li>
-<li>ré-oriente la gravité</li>
-<li>appele une tempête de Vril</li>
-<li>contrôle le Pollen</li>
-</ul>
+<div class="puzzle">
+<p>Une pièce invisible existe au milieu du vide</p>
+</div>
+<div class="puzzle">
+<p>Dans cette pièce il est possible d’indiquer des coordonnées (suite de d6)
+pour orienter un « canon à tunnel » optique</p>
+</div>
+</section>
+<section id="2-le-cimeti-re">
+<h4>2- Le cimetière</h4>
+<p>Avec des croix sur chaque tombe et une chapelle.</p>
+</section>
+<section id="3-la-serre">
+<h4>3- La serre</h4>
+<p>En verre, avec une végétation luxuriante à l’intérieur.</p>
+</section>
+<section id="4-l-pave-d-avion">
+<h4>4- L’épave d’avion</h4>
+</section>
+<section id="5-la-p-niche">
+<h4>5- La péniche</h4>
+<p>Dans un cours d’eau souterrain.</p>
+</section>
+<section id="6-le-moulin">
+<h4>6- Le moulin</h4>
+<p>Au milieu d’une vigne</p>
+</section>
+<section id="7-le-village-suspendu">
+<h4>7- Le village suspendu</h4>
+<p>Fixé à la voûte d’une salle, abandonné, on peut y vivre que la gravité soit dans un sens ou l’autre.</p>
+</section>
+<section id="8-la-ziggurat">
+<h4>8- La Ziggurat</h4>
+<p>Temple à étages</p>
+</section>
+<section id="9-la-mer-souterraine">
+<h4>9- La mer souterraine</h4>
+<p>Sur chaque plage un rocher porte un symbole : <liste de symboles></p>
+</section>
+<section id="10-la-fourmili-re">
+<h4>10- La fourmilière</h4>
+</section>
+</section>
+<section id="wip-puzzles-tr-sors-placer">
+<h3>WIP Puzzles &amp; trésors à placer</h3>
+<div class="open-problem">
+<p>tunnel en partie effondré dont on apperçoit l’autre côté</p>
+</div>
+<div class="open-problem">
+</div>
+<div class="puzzle">
+<p>Il existe une salle caché, le tombeau emmuré d’un dieu maudit,
+loin hors de la carte du sub-cartographe mais directement à l’ouest de la salle…</p>
+<!-- Inspi: la salle cachée du labyrinthe dans le jeu Enchanter cf. https://www.filfre.net/2018/11/ten-great-adventure-game-puzzles/?unapproved=422202&moderation-hash=284cbb20606c99e67bc991a90dd61f04#comment-422202 -->
+<p><strong>Nécessite</strong>: le pouvoir du bassin B</p>
+</div>
+<div class="treasure">
+<p>Bassin A : en trempant sa carte dans ce bassin, le sub-cartographe révèle l’emplacement de TOUS les lieux.</p>
+<p><strong>Indices</strong>: n° &amp; n°</p>
+</div>
+<div class="treasure">
+<p>Bassin B : en trempant sa carte dans ce bassin, le sub-cartographe acquiert la capacité de de tracer des tunnels à la demande entre le lieux !</p>
+<p><strong>Indices</strong>: n° &amp; n°</p>
+</div>
+<div class="treasure">
+<p>Bassin d’eau gorgée de Pollen : tout objet trempé dedans peut flotter dans les airs lorsqu’il est traversé e Vril</p>
+<p><strong>Indices</strong>: n° &amp; n°</p>
 </div>
 </section>
 </section>
@@ -626,10 +740,10 @@ tandis qu’à l’inverse les plus petits scores entrainent des opportunités.<
 <section id="fant-mes">
 <h4>Fantômes</h4>
 <p>Damian
-<input type="checkbox" id="checkbox15"><label for="checkbox15">aperçu par un PJ dans un tunnel</label>
-<input type="checkbox" id="checkbox14"><label for="checkbox14">les prévient d’un danger</label>
-<input type="checkbox" id="checkbox13"><label for="checkbox13">se manifeste physiquement pour aider PJs</label>
-<input type="checkbox" id="checkbox12"><label for="checkbox12">sauve un PJ</label></p>
+<input type="checkbox" id="checkbox3"><label for="checkbox3">aperçu par un PJ dans un tunnel</label>
+<input type="checkbox" id="checkbox2"><label for="checkbox2">les prévient d’un danger</label>
+<input type="checkbox" id="checkbox1"><label for="checkbox1">se manifeste physiquement pour aider PJs</label>
+<input type="checkbox" id="checkbox0"><label for="checkbox0">sauve un PJ</label></p>
 </section>
 </div>
 <div class="narrative-axe">
@@ -637,6 +751,7 @@ tandis qu’à l’inverse les plus petits scores entrainent des opportunités.<
 <h4>Vestiges :</h4>
 <div class="dice-list">
 <ul>
+<li>indice -&gt; cf. table</li>
 <li>fresque</li>
 <li>cadavre avec loot</li>
 <li>statue</li>
@@ -656,6 +771,18 @@ tandis qu’à l’inverse les plus petits scores entrainent des opportunités.<
 <h4>Reorg tunnels</h4>
 <p>due au Vril -&gt; Pair/impar : suppression tunnel OU swap 2 lieux</p>
 <p>+ risque augmente au fil de la partie ?</p>
+<div class="dice-list">
+<ul>
+<li>un tunnel contenant de l’eau se déverse dans celui des PJs,
+entrainant une coulée de boue</li>
+<li>les Pjs se retrouvent enfermés dans un boyau cul-de-sac</li>
+<li>le tunnel où progresse les PJs se révèle faire une boucle</li>
+<li>une poche de gaz Pollen se répand</li>
+<li>la gravité bascule et les PJs tombent en chute libre</li>
+<li>le boyau des PJs penche abruptement et l’exrémité de la descente
+débouche à plusieurs dizaines de mètres au dessus du sol d’une salle souterraine</li>
+</ul>
+</div>
 </section>
 </div>
 <div class="narrative-axe">
@@ -687,29 +814,397 @@ de provoquer l’arrivée d’eau : Pair / impair : s’écoule d’en haut / mo
 <div class="narrative-axe">
 <section id="saison-rouge-">
 <h4>Saison rouge :</h4>
-<p><input type="checkbox" id="checkbox19"><label for="checkbox19">poche de spores de Pollen flottante, stagnante, en travers du chemin des PJs</label>
-<input type="checkbox" id="checkbox18"><label for="checkbox18">tapis de mousse -&gt; gluant collant superglue,</label>
+<p><input type="checkbox" id="checkbox7"><label for="checkbox7">poche de spores de Pollen flottante, stagnante, en travers du chemin des PJs</label>
+<input type="checkbox" id="checkbox6"><label for="checkbox6">tapis de mousse -&gt; gluant collant superglue,</label>
 Visible mais trop tard : (pair / impair) fourmi géante / Skaven digérée
-<input type="checkbox" id="checkbox17"><label for="checkbox17">poche de gaz-Pollen toxique et inflammable</label>
-<input type="checkbox" id="checkbox16"><label for="checkbox16">infection d’un personnage (au hasard, incluant PNJs du groupe) -&gt; début de transformation Skaven</label></p>
+<input type="checkbox" id="checkbox5"><label for="checkbox5">poche de gaz-Pollen toxique et inflammable</label>
+<input type="checkbox" id="checkbox4"><label for="checkbox4">infection d’un personnage (au hasard, incluant PNJs du groupe) -&gt; début de transformation Skaven</label></p>
 </section>
 </div>
 <div class="narrative-axe">
 <section id="menace-skaven">
 <h4>Menace Skaven</h4>
 <p>1 des PJs peut faire 1 jet pour les repérer
-<input type="checkbox" id="checkbox23"><label for="checkbox23">juste des rats</label>
-<input type="checkbox" id="checkbox22"><label for="checkbox22">éclaireur Skaven -&gt; même type de rencontre tant que PJs pas repérés, ou éclaireur éliminé avant de prévenir sa meute</label>
+<input type="checkbox" id="checkbox11"><label for="checkbox11">juste des rats</label>
+<input type="checkbox" id="checkbox10"><label for="checkbox10">éclaireur Skaven -&gt; même type de rencontre tant que PJs pas repérés, ou éclaireur éliminé avant de prévenir sa meute</label>
 Tactique: charge / reste à distance et tire à l’arc / flare
-<input type="checkbox" id="checkbox21"><label for="checkbox21">meute Skaven -&gt; Pair / impar -&gt; cachés ou rôdent. Tactique : chargent / canardent &amp; encerclent / grenades Pollen toxico-explosif</label>
-<input type="checkbox" id="checkbox20"><label for="checkbox20">piège Skaven -&gt; fosse recouverte / bloquent PJs dans lieu étroit /</label></p>
+<input type="checkbox" id="checkbox9"><label for="checkbox9">meute Skaven -&gt; Pair / impar -&gt; cachés ou rôdent. Tactique : chargent / canardent &amp; encerclent / grenades Pollen toxico-explosif</label>
+<input type="checkbox" id="checkbox8"><label for="checkbox8">piège Skaven -&gt; fosse recouverte / bloquent PJs dans lieu étroit /</label></p>
 </section>
 </div>
 </section>
-<section id="campagne-cach-e">
-<h2>Campagne cachée</h2>
+<section id="puzzles-probl-mes-ouverts">
+<h2>Puzzles &amp; problèmes ouverts</h2>
+<div class="open-problem">
+<p>Le tunnel se termine par un dénivellé brutal (impair : vers le haut / pair : vers le bas) de plusieurs dizaines de mètres</p>
+<p><strong>Pistes</strong>:</p>
+<ul>
+<li>escalader : prévenez le groupe que tout le monde doit réussir sont jet,
+et qu’il faudra en faie un second à mi-hauteur lors d’un passage particulièrement difficile</li>
+<li>employer …</li>
+</ul>
+</div>
+<section id="les-4-grands-principes-actifs-du-vril">
+<h3>Les 4 grands « principes actifs » du Vril</h3>
+<p>En tant que MJ, il est très important de vous les approprier, mais de ne surtout pas les expliquer aux joueurs.
+Ces principes transparaissent dans la plupart des problèmes ouverts &amp; puzzles auxquels le PJs seront confrontés dans l’Agartha,
+et au fil des parties ceux-ci deviendront plus familier avec leur logique de fonctionnement.</p>
+<ul>
+<li><code>les spores de Pollen bleu</code> : contrairement au Pollen vert, toxique, les spores bleues sont sans danger
+<ul>
+<li><strong>Elles agisent sur</strong>
+<ul>
+<li>la gravité, en faisant flotter des objets dans l’air, ou au contraire en faisant basculer de côté la gravité dans une salle ou un tunnel entier</li>
+<li>la transformation en Skaven</li>
+<li>elles hypnotisent les fourmis géantes</li>
+</ul>
+</li>
+<li><strong>Elles sont générées par</strong> certaines plantes</li>
+<li><strong>Elles sont controlable avec</strong></li>
+</ul>
+</li>
+</ul>
+<!-- pourquoi d'eau ?? les PJs ne le sauront jamais... -->
+<ul>
+<li>
+<p><code>les cristaux d'eau</code> : il s’agit d’eau « figée dans le temps » par le Vril. Ils sont complètement invisibles dans l’eau.</p>
+<ul>
+<li><strong>Ils agissent sur</strong> ils servent de combustibles à plusieurs endroits.</li>
+<li><strong>On peut les trouver</strong> dans la mer souterraine, sur une plage en particulier</li>
+<li><strong>Ils sont controlable avec</strong></li>
+</ul>
+</li>
+<li>
+<p><code>la langue des anciens</code> : ces mots antédiluviens traversent le temps, connectant grâce au Vril ambiant ceux qui les emploient
+avec les esprits de leurs ancêtres, invoqués alors brièvement</p>
+<ul>
+<li><strong>Ils agissent sur</strong> le temps, l’ordonnancement des tunnels, l’énergie Vril électriques, les connaissance des ancêtres</li>
+<li><strong>Ils sont empoyables</strong> par certains individus uniquement</li>
+<li><strong>Les mots</strong>
+<ul>
+<li>le <code>retour en arrière</code> : mot connu initiallement par le tempo-magus, qui ne sait pas initiallement qu’il tire son pouvoir de ces mots</li>
+<li>le <code>souffle électrique</code> :</li>
+<li>la <code>reorg de tunnels</code> :</li>
+<li>l’activation « d’enchantements » liés à l’eau</li>
+</ul>
+</li>
+<li><strong>La contrainte de cooldown peut être levée par</strong></li>
+<li><strong>Leur effet peut être amplifié par</strong></li>
+</ul>
+</li>
+</ul>
+<p>Les principes secondaires :</p>
+<ul>
+<li>
+<p><strong>la lumière</strong> :</p>
+<ul>
+<li><strong>Elle agit sur</strong>
+<ul>
+<li>les sacs de spores qui délivrent alors leur Pollen</li>
+<li>concentrée, elle active les cristaux d’eau</li>
+<li>en passant à travers des lentilles en cristaux d’eau, elle ralentit le temps si vite qu’elle pétrifie en pierre</li>
+<li>en passant dans l’autre sens par ces lentilles, elle inverse cet effet et peut même vaporiser la roche ou mettre en marche des statues</li>
+</ul>
+</li>
+<li><strong>Elle provient de</strong> puits de lumière,</li>
+<li><strong>Elle est controlable avec</strong> des miroirs</li>
+</ul>
+</li>
+<li>
+<p><strong>l’eau</strong></p>
+<ul>
+<li><strong>Elle agit sur</strong> elle transmet la mémoire des ancêtres</li>
+<li><strong>Elle provient de</strong> nappes phréatiques un peu partout</li>
+<li><strong>Elle est controlable avec</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>les lianes de plantes-Pollen</strong> : sont de très bon conducteurs pour l’énerge Vril électriques.
+La cordée du tempo-magus en est constituée.</p>
+</li>
+</ul>
+</section>
+<section id="indices">
+<h3>Indices</h3>
+<p>Exemples de « thématique » : relique, bassins, colosses, lieux, mots magiques</p>
+<table>
+<thead>
+<tr>
+<th>d66</th>
+<th>Thématique</th>
+<th>Où / comment ?</th>
+<th>Indice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>bassins</td>
+<td>fresque</td>
+<td>des objets sont trempés dans des bassins et en ressortent avec des pouvoirs</td>
+</tr>
+<tr>
+<td>32</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>41</td>
+<td>cristaux</td>
+<td></td>
+<td>on peut les trouver sur une plage de la mer souterraine marqué d’un symbole</td>
+</tr>
+<tr>
+<td>42</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>43</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>44</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>46</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>51</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>52</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>53</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>54</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>55</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>56</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>61</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>62</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>63</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>64</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>65</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>66</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="trouvailles">
+<h2>Trouvailles</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><s>⚀</s> <s>⚁</s></th>
+<th><s>⚂</s> <s>⚃</s></th>
+<th><s>⚄</s> <s>⚅</s></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><s>⚀</s></td>
+<td>1 couverture couleur roche</td>
+<td>1d3 masques à gaz 1d6/2</td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚁</s></td>
+<td>1d3 piolets d’escalade</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚂</s></td>
+<td>1 trousse à outils</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚃</s></td>
+<td>1d3 torches</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚄</s></td>
+<td>1 arme acérée</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><s>⚅</s></td>
+<td>1 arc &amp; quelques flêches</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>+ grapin</p>
+<p>(si résultat déjà obtenu, lire le suivant dans la liste)</p>
+<section id="reliques">
+<h3>Reliques</h3>
+<p>Comme pouvoir du tempo-magus, utilise l’énergie du Vril =&gt; usages limités par cooldown</p>
+<p>apparence (et où les trouver) x effet:</p>
+<div class="dice-list">
+<ul>
+<li>un os</li>
+<li>une lanterne de papier</li>
+<li>une boussole</li>
+<li>une boîte d’allumettes</li>
+<li>une bible annotée de symboles kabalistiques</li>
+</ul>
+</div>
+<div class="dice-list">
+<ul>
+<li>provoque la réorganisation des tunnels</li>
+<li>commande aux fourmis géantes</li>
+<li>provoque la pétrification / tunnels avalent êtres vivants</li>
+<li>ré-oriente la gravité</li>
+<li>appele une tempête de Vril</li>
+<li>contrôle le Pollen</li>
+<li>creuse des tunnels en un clin d’oeil</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="en-mode-campaggne">
+<h2>En mode campaggne</h2>
 <div class="rule-focus">
-<p>Section confidentielle ! Réservée au MJ !</p>
+<p>Section <strong>ultra</strong> confidentielle ! Réservée au MJ !</p>
 </div>
 <p>Ce jeu est d’abord conçu pour être joué en <em>one-shot</em>,
 des parties courtes sans lien aucun, et à chaque fois différentes.</p>
@@ -729,6 +1224,17 @@ et même d’énigmes, de Reliques ou de mots magiques</li>
 <section id="l-explication">
 <h3>L’explication</h3>
 </section>
+<section id="ce-qui-change-et-ce-qui-ne-change-pas-chaque-session">
+<h3>Ce qui change et ce qui ne change pas à chaque session</h3>
+<p><strong>Ce qui change</strong>:</p>
+<ul>
+<li>la disposition des lieux</li>
+</ul>
+<p><strong>Ce qui ne change pas</strong>:</p>
+<ul>
+<li>la nature des artefacts</li>
+</ul>
+</section>
 <section id="conseils">
 <h3>Conseils</h3>
 <p>À chaque fin de session, notez ceci sur une feuille avant d’oublier :</p>
@@ -738,15 +1244,50 @@ et même d’énigmes, de Reliques ou de mots magiques</li>
 <li>une ou deux insultes de …</li>
 <li>les mots magiques appris par le groupes</li>
 </ul>
+<p><strong>De quoi se souviennent les PJs s’ils cherchent à se rappeler de leurs derniers souvenirs de leur vie antérieure ?</strong></p>
+<p>D’une inondation massive.</p>
 </section>
 </section>
 <section id="faq">
 <h2>FAQ</h2>
-<p>Le jeu est conçu pour être rejoué,
-chaque partie permettant aux joueurs de connaître un peu mieux l’Agartha,
-ses pièges et ses trésors.</p>
-<section id="paradoxes-temporels">
-<h4>Paradoxes temporels</h4>
+<section id="comment-g-rer-la-mort-et-les-blessures-">
+<h3>Comment gérer la mort et les blessures ?</h3>
+<p>Comme il s’agit d’une histoire collective, les PJs verront toujours le danger venir.
+Ils ne seront jamais « tués par surprise » car ce serait assez anti-climatique et décevant pour tout le monde.</p>
+<p>Bien sur, il ne faut pas moins ménager des surprises et leur faire ressentir le danger qui rôde !
+Au MJ de distiller une ambiance inquiétante au fur et à mesure de l’exploration des PJs :
+traces d’affrontements et de victimes des Skavens, PNJs peu rassurants,
+effets de <a href="https://homoludis.wordpress.com/2016/12/19/pourquoi-vous-ne-ferez-jamais-peur-a-vos-joueurs-pendant-un-jdr/">désamorçage &amp; contrepied</a>…</p>
+<p>Au final dans <strong>Sous terre</strong>, pour qu’un PJ meure, voici ce qui doit se passer :</p>
+<ul>
+<li>le MJ indique aux PJs un danger</li>
+<li>un PJ choisit de prendre le risque de s’y exposer de par ses actions</li>
+<li>cela entraine un jet de dés, qui échoue</li>
+<li>le PJ est en <strong>mauvaise posture</strong>, la pression monte</li>
+<li>le MJ fait comprendre aux joueurs qu’il va falloir réagir vite,
+mais en parallèlle découpe l’action plus finement en micro-instants, pour donner le temps aux joueurs de réfléchir à leurs actions</li>
+<li>un ou plusieurs autres jets sont effectués par les PJs pour tenter de résoudre la situation, mais tous échouent.
+Ou peut-être la situation s’améliore telle un temps pour finalement redevenir critique.</li>
+<li>le MJ indique à la table que le PJ est en situation de <strong>mort imminente</strong>. Peut-être qu’il évite une première fois la mort <em>in extremis</em>.
+Il ne lui reste plus qu’<strong>une dernière action posible</strong>.</li>
+</ul>
+<p>À ce stade il reste encore plusieurs options :</p>
+<ul>
+<li>pour cette dernière action, le PJ peut employer une capacité spéciale, un objet à usage unique qu’il conservait jusqu’à maintenant,
+utiliser ses derniers jetons de bravoure… Tout ceci contribuant à lui donner bonus pour son dernier jet de dés.</li>
+<li>enfin, le MJ peut employer un ressort narratif : changement de comportement d’un ennemi, intervention d’un PNJ,
+bouleversement providentiel de l’environnement immédiat…</li>
+</ul>
+<p>Si toutefois ni PJ ni MJ ne peuvent ou ne veulent utiliser ces options, et que le dernier jet de dé du PJ est à nouveau un échec,
+le PJ est alors <strong>incapacité</strong>. Peut-être est-il mortellement blessé, ou simplement assomé,
+empoisonné, noyé, ou un autre sort peu enviable. Le joueur qui l’incarnait ne peut plus le contrôler pour le moment,
+mais dans l’univers de <strong>Sous terre</strong>, il peut toujours exister des moyens de le sauver…</p>
+<p>Quant aux blessures, elles ne sont pas gérées par les règles.
+Toute liberté est donnée au MJ et aux joueurs pour les décrire et les employer à des fins narratives,
+sans que cela n’entraine aucun malus aux jets.</p>
+</section>
+<section id="comment-g-rer-les-paradoxes-temporels-">
+<h3>Comment gérer les paradoxes temporels ?</h3>
 <p>Pour rappel, les règles du retour dans le passé du tempo-magus sont :</p>
 <ul>
 <li>seuls les individus <strong>en contact</strong> avec lui, directement ou via la cordée,
@@ -757,42 +1298,47 @@ ont conscience de ce retour en arrière.</li>
 les voyageurs du temps disparaissent donc brusquement de leur position initiale à ce moment là
 pour être « téléportés » au lieu de départ de leur saut temporel.</p>
 <p>Les PJs et PNJs qui n’ont pas voyagés répétront les même gestes que précédement,
-jusqu’à que les actions des voyageurs du temps les impactent.
+jusqu’à ce que les actions des voyageurs du temps les impactent.
 Ils retrouvent alors toute liberté de comportement.</p>
 <p>Le MJ peut demander au cartographe et à l’archéo-magasinier,
 s’ils sont « victimes » d’un saut dans le temps sans en être conscients,
 de supprimer certaines des leurs notes.</p>
 </section>
-<section id="licence-et-sources">
-<h3>Licence et sources</h3>
-<p><a class="float-left" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License Attribution 4.0 International" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+<section id="licence-sources-inspirations">
+<h3>Licence, sources &amp; inspirations</h3>
+<p><a class="license" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License Attribution 4.0 International" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 Ce jeu a été conçu par Lucas Cimon et est sous licence <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
-<p>Si vous le testez, songez à me laisser un petit commentaire sur <a href="https://chezsoi.org/lucas/blog">https://chezsoi.org/lucas/blog</a></p>
+<p>Si vous le testez, songez à me laisser un petit commentaire sur <a href="https://chezsoi.org">https://chezsoi.org</a></p>
 <p>Merci à Estelle, Henri &amp; Matthieu pour le playtest !</p>
 <p><strong>Polices</strong>:</p>
 <ul>
 <li>Odachi par <a href="https://tugcu.co">Mehmet Reha Tugcu</a></li>
 <li><a href="https://www.fontspace.com/shaashimov/tribal-garamond">Tribal Garamond</a> par Shaashimov</li>
 </ul>
-<p><strong>Inspis :</strong> les jeux de rôle Pbta, Lady Blackbird, l’Île Mystérieuse &amp; Warhammer pour les Skavens,
+<p><strong>Illustrations employées :</strong></p>
+<ul>
+<li>un grand nombre d’illustrations de <a href="https://www.deviantart.com/fernand0fc/">Fernando Correa aka Fernand0FC</a> sous license <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. : un grand merci à lui !</li>
+<li>les icônes proviennent de <a href="https://game-icons.net">game-icons.net</a> et sont toutes <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>
+</ul>
+<p><strong>Illustrations pour plus d’inspiration :</strong></p>
+<ul>
+<li>les artworks d’environnements souterrains conçus par Grant Regan / <a href="https://www.artstation.com/alextornberg">Alex Tornberg</a> / <a href="https://www.artstation.com/perh">Per Oyvind Haagensen</a> pour le jeu <em>Age Of Conan : Hyborian Adventures / Unchained</em> :
+<a href="https://www.videogamesartwork.com/games/age-conan-unchained">https://www.videogamesartwork.com/games/age-conan-unchained</a></li>
+<li>les illustrations de Andrzej Dybowski pour le jeu Metro Exodus : <a href="https://dybowski.artstation.com/albums/1334366">https://dybowski.artstation.com/albums/1334366</a></li>
+</ul>
+<p><strong>Inspirations :</strong> les jeux de rôle PbtA, Lady Blackbird, l’Île Mystérieuse, Warhammer pour les Skavens,
 les jeux vidéo Tomb Raider &amp; Left 4 Dead pour le groupe soudé et complémentaire,
 le mange Dédale de Takamichi,
 la série “The Lost Room” pour les reliques, ces articles de Dark Roasted Blend pour l’ambiance :
 <a href="http://www.darkroastedblend.com/2009/05/underground-cities-and-bunkers-living.html">Underground Cities and Bunkers: Living Down Below</a>,
 <a href="http://www.darkroastedblend.com/2007/07/abandoned-tunnels.html">Abandoned Tunnels &amp; Vast Underground Spaces</a></p>
-<p><strong>Illus :</strong></p>
-<ul>
-<li><a href="https://pixabay.com/photos/cave-tunnel-underground-entrance-94193/">https://pixabay.com/photos/cave-tunnel-underground-entrance-94193/</a></li>
-<li><a href="https://www.deviantart.com/shadowdee/art/Tunnel-Guard-613456501">https://www.deviantart.com/shadowdee/art/Tunnel-Guard-613456501</a></li>
-<li>(non CC) <a href="https://www.deviantart.com/matchack/art/Surreal-Valley-340209159">https://www.deviantart.com/matchack/art/Surreal-Valley-340209159</a></li>
-<li><a href="https://www.deviantart.com/hunternif/art/DB-S05D09-696229450">https://www.deviantart.com/hunternif/art/DB-S05D09-696229450</a></li>
-</ul>
-<p><strong>Music :</strong> <a href="https://www.youtube.com/playlist?list=PLLgE-ga3W_kauLucuvv2p4ambSv_qkpyU">playlist Youtube</a></p>
+<p><strong>Musique :</strong> <a href="https://www.youtube.com/playlist?list=PLLgE-ga3W_kauLucuvv2p4ambSv_qkpyU">playlist Youtube</a></p>
 <ul>
 <li>Zack Hemsey - “The Way (Instrumental)”</li>
 <li>Fever Ray - Keep the Streets Empty For Me</li>
 <li>Wardruna - Völuspá</li>
 <li>Ryuichi Sakamoto - The Revenant Main Theme</li>
+<li>les bandes son des jeux <em>Shadow of the Colossus</em> &amp; <em>Tomb Raider Underworld</em></li>
 </ul>
 <style type="text/css">
 @font-face {
@@ -830,12 +1376,9 @@ h3 { font-size: 2rem; }
 h4 { font-size: 1.2rem; }
 p, ol, ul { margin: .3rem 0; }
 ol, ul { padding-inline-start: 1rem; }
-dl {
-  display: flex;
-  flex-wrap: wrap;
-}
-dt { flex: 1 0 8%; font-weight: bold; }
-dd { flex: 1 0 92%; margin-left: 0; }
+dl { display: flex; flex-wrap: wrap; }
+dt { padding: .1rem 0; flex: 1 0 8%; font-weight: bold; }
+dd { padding: .1rem 0; flex: 1 0 92%; margin-left: 0; }
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -855,6 +1398,93 @@ s { /* dices */
   vertical-align: bottom;
 }
 
+code {
+  font-family: TribalGaramond;
+}
+.open-problem {
+  font-family: TribalGaramond;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #fcdfe6;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+.open-problem::before {
+  content: '';
+  background-image: url(img/artificial-intelligence.svg);
+  background-repeat: no-repeat;
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  padding-right: .5rem;
+}
+
+.puzzle {
+  font-family: TribalGaramond;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #f6fcdf;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+.puzzle::before {
+  content: '';
+  background-image: url(img/jigsaw-piece.svg);
+  background-repeat: no-repeat;
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  padding-right: .5rem;
+}
+
+.rule-focus {
+  font-family: TribalGaramond;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+.rule-focus::before {
+  content: '';
+  background-image: url(img/read.svg);
+  background-repeat: no-repeat;
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  padding-right: .5rem;
+}
+
+.treasure {
+  font-family: TribalGaramond;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #dfedfc;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+.treasure::before {
+  content: '';
+  background-image: url(img/open-treasure-chest.svg);
+  background-repeat: no-repeat;
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  padding-right: .5rem;
+}
+
+.toc { font-family: TribalGaramond; }
+.toc a { color: black; }
+.toc li { list-style-type: none; }
+
+img { display: block; margin: 0 auto; max-width: 30rem; }
+img.no-max-width { max-width: 100%; }
+img.no-max-width:hover { transform: scale(1.5); }
+
+.arrow-list > ul { padding-inline-start: 0; }
+.arrow-list > ul > li { list-style-type: none; }
+.arrow-list > ul > li::before { content: '→ '; }
+
 .dice-list > ul > li { list-style-type: none; }
 .dice-list > ul > li:nth-child(1)::before { content: '⚀'; }
 .dice-list > ul > li:nth-child(2)::before { content: '⚁'; } 
@@ -869,6 +1499,8 @@ s { /* dices */
   padding-right: .5rem;
 }
 
+#personnages img { float: left; max-width: 20rem; }
+#pnjs table img { max-width: 100%; }
 #pnjs th, #pnjs td,
 #loot th, #loot td { padding: .5rem; }
 
@@ -880,15 +1512,6 @@ s { /* dices */
 }
 .character hr {
   margin-top: 2rem;
-}
-
-.rule-focus {
-  font-family: TribalGaramond;
-  font-size: 1.2rem;
-  text-align: center;
-  background-color: #f8f8f8;
-  padding: .5rem;
-  border-radius: 1rem;
 }
 
 .narrative-axes {
@@ -906,25 +1529,22 @@ s { /* dices */
 .narrative-axes { font-size: 1.5rem; }
 .narrative-axes s { font-size: 2rem; }
 
-.narrative-axe {
+#lieux-tranges section, .narrative-axe {
   border: 1px solid black;
   padding: .5rem;
   margin: .3rem;
   width: 45%;
 }
+#lieux-tranges section h3, #lieux-tranges section h4,
 .narrative-axe h3, .narrative-axe h4 { margin: 0; }
-.narrative-axe:nth-child(2n+1) { float: left; }
-.narrative-axe:nth-child(2n)   { float: right; }
+#lieux-tranges section:nth-child(2n),  .narrative-axe:nth-child(2n+1) { float: left; }
+#lieux-tranges section:nth-child(2n+1),.narrative-axe:nth-child(2n)   { float: right; }
 
-.impulses { columns: 6; }
-.impulses ul {
-  list-style: none;
-  padding-inline-start: 0;
-}
-.impulses s {
-  display: block;
-  font-size: 1.8rem;
-  text-align: center;
+.license img { float: left; padding-right: .5rem; }
+
+@media print {
+  #toc { display: none; }
+  #sous-terre > img { display: none; }
 }
 </style>
 </section>
