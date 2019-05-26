@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DungeonHeartHeroesAndSpells</title>
+</head>
+<body>
+<!--
+* Illus ?
+* Mention auteur & license
+* Inclure map Matt ?
+
+Questions:
+* Battements de cœur peuvent être dépensés n'importe quand ?
+* Salle du trésor gratuite ?
+
+Inspis : Crawl, Dungeon Keepers & Donjon Clefs en Main (page 58 pour générer des monstres)
+-->
+<section id="dungeon-hearts-heroes-spells">
+<h1>Dungeon Hearts : Heroes &amp; Spells</h1>
+<p>Cette extension requiert 1d12 (un dé à douze faces).</p>
+<p>Tout d’abord, voici un générateur d’aventuriers que je vous recommande : <a href="http://www.dmheroes.com">http://www.dmheroes.com</a></p>
+<p>Ensuite, voici le principe de cette extension : après le premier assaut d’aventuriers,
+un joueur au hasard lance un dé dans la table d’événements aléatoires ci-dessous,
+puis <strong>doit</strong> sélectionner une des options, si c’est possible et qu’il en reste.
+Chaque option ne peut être sélectionnée qu’une fois par<input type="checkbox" id="checkbox0"><label for="checkbox0">.</label>
+Après l’assaut suivant, c’est au joueur à sa gauche de lancer un dé dans cette table, et ainsi de suite.</p>
+<p>Pour chaque capacité utilisable une seule fois par phase d’invasion,
+notez un bâton sur votre feuille lorsque vous l’employez, et barrez-le au début de la phase suivante.</p>
+<div class="choices">
+<table>
+<thead>
+<tr>
+<th><s>⚀</s> Héros</th>
+<th><s>⚁</s> Monstres</th>
+<th><s>⚂</s> Boss fights</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td> </td>
+</tr>
+<tr>
+<td><s>⚃</s> Artefacts</td>
+<td><s>⚄</s> Sortilèges</td>
+<td><s>⚅</s> XP</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="td0">
+<p>Les <strong>Héros</strong> sont des aventuriers spéciaux, représentés par des jetons différents sur la carte.
+Dans un groupe, <strong>les Héros ne peuvent être vaincus qu’après tous les autres aventuriers</strong>.
+Choisissez l’un d’eux pour la prochaine phase d’invasion :</p>
+<ul>
+<li><input type="checkbox" id="checkbox1"><label for="checkbox1">+1 Héro </label><strong>Barbare</strong> : lorsqu’il affronte des monstres, ceux-ci sont trucidés si un 2 ou un 3 est obtenu sur les dés lancés.</li>
+<li><input type="checkbox" id="checkbox2"><label for="checkbox2">+1 Héroïne </label><strong>Ensorceleuse</strong> : charme les monstres, empêchant que les dés soient lancés.</li>
+<li><input type="checkbox" id="checkbox3"><label for="checkbox3">+1 Héroïne </label><strong>Érudite</strong> : ses grimmoires contiennent les réponses de toutes les énigmes, empêchant que les dés soient lancés.</li>
+<li><input type="checkbox" id="checkbox4"><label for="checkbox4">+1 Héro </label><strong>Mage</strong> : lors d’un <em>boss fight</em>, lancez 2d6 d’une couleur différente pour le Mage. Leur total est pris en compte pour être comparé au dé du Gardien.</li>
+<li><input type="checkbox" id="checkbox5"><label for="checkbox5">+1 Héro </label><strong>Paladin</strong> : entre chaque pièce, si des membres du groupe manquent, lancez un dé : si c’est impair, un aventurier ré-intègre le groupe.</li>
+<li><input type="checkbox" id="checkbox6"><label for="checkbox6">+1 Héroïne </label><strong>Rôdeuse</strong> : elle sait désamorcer les pièges, empêchant que les dés soient lancés.</li>
+</ul>
+</div>
+<div class="td1">
+<p>Si un choix est suivi d’une mention entre parenthèses, il ne peut être sélectionné que si cette condition est remplie :</p>
+<ul>
+<li><input type="checkbox" id="checkbox7"><label for="checkbox7"></label><input type="checkbox" id="checkbox8"><label for="checkbox8"></label><strong>Rixe entre monstres</strong> : dans une pièce au choix contenant un nombre pair de monstres, la moitié sont ratatinés par leurs voisins.
+<em>(nécessite qu’au moins un monstre décède)</em></li>
+<li><input type="checkbox" id="checkbox9"><label for="checkbox9"></label><strong>Grève générale</strong> : vos monstres refusent de travailler pendant 1d6 / 2 tours.
+<em>(nécessite au moins un monstre)</em></li>
+<li><input type="checkbox" id="checkbox10"><label for="checkbox10"></label><strong>Rage destructrice</strong> : un monstre de votre choix se met à détruire toutes les énigmes et pièges sur son passage,
+à commencer par ceux de sa pièce.
+Tant qu’une salle adjacente contient un piège ou une énigme, il s’y rend et les détruits. Choisissez la pièce s’il y a plusieurs options.
+Le monstre s’installe dans le dernier emplacement visité.
+<em>(nécessite qu’au moins un piège soit détruit ainsi)</em></li>
+<li><input type="checkbox" id="checkbox11"><label for="checkbox11"></label><strong>Dragon</strong> : ce nouvel arrivant s’installe dans la salle du trésor.
+C’est un monstre à 5d6 qui occupe tous les emplacements et détruit ce qui s’y trouvait.</li>
+<li><input type="checkbox" id="checkbox12"><label for="checkbox12"></label><strong>Passage secret</strong> : des monstres on construit un passage secret pour sortir de la salle du trésor afin de le piller à votre insu.
+Placez la sortie de ce passage dans une pièce au choix de manière à ce qu’il fasse gagner du temps aux aventuriers.
+Il ne peut pas être emprunté que pour <strong>sortir</strong> de la salle du trésor.</li>
+<li><input type="checkbox" id="checkbox13"><label for="checkbox13"></label><strong>Inondation</strong> : à force de creuser, un de vos monstres provoque une arrivée massive d’eau ou de lave,
+détruisant 2 emplacements dans la même pièce ou 2 pièces adjacentes.</li>
+</ul>
+</div>
+<div class="td2">
+<p>Choisissez un Gardien : il décrit comment il se retrouve à devoir affronter les prochains aventuriers lui-même à leur arrivée !</p>
+<p>Lancez <strong>1d6 par aventurier, et 1d12 pour le Gardien</strong>.
+Le Gardien choisit alors un ou plusieurs dés d’aventuriers dont le total est inférieur ou égal au sien, s’il le peut.
+Ces aventuriers sont vaincus immédiatement.</p>
+<p>Cependant, s’il reste des aventuriers, le Gardien subit une blessure.
+Le Gardien est libre de continuer le combat, mais chaque fin de tour où il reste des aventuriers lui octroie une nouvelle blessure.</p>
+<p>À la fin du combat, pour chaque blessure reçue, le Gardien doit payer 2 battements de cœur ou passer une phase d’invasion directement suivante à récupérer de ses blessures,
+sans pouvoir participer à la défense du donjon.</p>
+</div>
+<div class="td3">
+<p>Ils sont uniques et ne peuvent être échangés ni prêtés.
+Décrivez la nature de l’objet qui possède ce pouvoir, et comment votre Gardien l’obtient :</p>
+<ul>
+<li><input type="checkbox" id="checkbox14"><label for="checkbox14"></label><input type="checkbox" id="checkbox15"><label for="checkbox15"></label><strong>Arme</strong> : procure +3 au d12 du Gardien lors des <em>boss fight</em></li>
+<li><input type="checkbox" id="checkbox16"><label for="checkbox16"></label><input type="checkbox" id="checkbox17"><label for="checkbox17"></label><strong>Armure</strong> : permet de ne payer qu’un battement de cœur par blessure lors des <em>boss fight</em></li>
+<li><input type="checkbox" id="checkbox18"><label for="checkbox18"></label><strong>Bâton magique</strong> : baguette ou sceptre, cela vous permet de lancer un dé à chaque fois que <strong>Cerveau</strong>
+lance un Sortilège : si c’est impair, le sort peut être réutilisé.</li>
+<li><input type="checkbox" id="checkbox19"><label for="checkbox19"></label><strong>Cape d’invisibilité</strong> : si vous vous portez volontaire pour un <em>boss fight</em>,
+vous pouvez choisir de ne pas le résoudre à l’entrée des aventuriers dans le donjon,
+mais au moment où vous le souhaitez durant l’invasion, entre 2 pièces.</li>
+<li><input type="checkbox" id="checkbox20"><label for="checkbox20"></label><input type="checkbox" id="checkbox21"><label for="checkbox21"></label><input type="checkbox" id="checkbox22"><label for="checkbox22"></label><strong>Potion</strong> : une fois par phase d’invasion, vous pouvez relancer un dé.</li>
+</ul>
+</div>
+<div class="td4">
+<p>Ils ne sont utilisables qu’<strong>une fois dans la partie</strong>, et seul <strong>Cerveau</strong> sait les invoquer. C’est lui qui décide quand les employer.
+Choisissez un enchantement et décrivez comment votre Gardien le découvre :</p>
+<ul>
+<li><input type="checkbox" id="checkbox23"><label for="checkbox23"></label><input type="checkbox" id="checkbox24"><label for="checkbox24"></label><strong>Confusion</strong> : choisissez la pièce où ils se déplacent ensuite, quitte à faire demi-tour.</li>
+<li><input type="checkbox" id="checkbox25"><label for="checkbox25"></label><input type="checkbox" id="checkbox26"><label for="checkbox26"></label><strong>Flashback</strong> : après le jet d’entrée des aventuriers dans une pièce, relancez les dés.</li>
+<li><input type="checkbox" id="checkbox27"><label for="checkbox27"></label><input type="checkbox" id="checkbox28"><label for="checkbox28"></label><strong>Gigantisme</strong> : distribuez 2 augmentation de puissance de monstre <em>(+1 dé)</em>.</li>
+<li><input type="checkbox" id="checkbox29"><label for="checkbox29"></label><input type="checkbox" id="checkbox30"><label for="checkbox30"></label><strong>Nécromancie</strong> : rescucitez un monstre auquel vous aviez donné un nom, et placez-le dans l’emplacement de votre choix.</li>
+<li><input type="checkbox" id="checkbox31"><label for="checkbox31"></label><input type="checkbox" id="checkbox32"><label for="checkbox32"></label><strong>Oracle</strong> : changez le résultat d’un dé qui vient d’être lancé.</li>
+</ul>
+</div>
+<div class="td5">
+<p>Gagnez <strong>+1 XP</strong>. 3 XPs vous permettent de débloquer un pouvoir :</p>
+<ul>
+<li><strong>Squelette</strong> : les pièces ne vous coûtent plus que ❤❤ à construire.
+Pour 3 autres XPs, elles ne coûtent plus que ❤.</li>
+<li><strong>Moelle</strong> : vous pouvez librement réorganiser vos monstres à chaque phase de préparation</li>
+<li><strong>Cerveau</strong> : lorsqu’un aventurier est victime d’une énigme,
+vous pouvez choisir <strong>2 options</strong> bonus dans la liste.
+Pour 3 autres XPs, vous pouvez désormais choisir <strong>3 options</strong> bonus.</li>
+<li><strong>Pancreas</strong> : les nouveaux pièges que vous construisez combinent <strong>2 types</strong>.
+Pour 3 autres XPs, vos nouveaux pièges combinent désormais les <strong>3 types</strong>.</li>
+</ul>
+</div>
+<style type="text/css">
+@font-face {
+  font-family: AndadaRegular;
+  src: url('fonts/Andada-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: BreatheFireII;
+  src: url('fonts/Breathe Fire II.otf') format('truetype');
+}
+
+body {
+  margin: 0 auto;
+  padding: 4rem;
+  font-family: AndadaRegular,Calibri,Arial,sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+h1 { font-family: BreatheFireII; font-size: 2.5rem; text-transform: uppercase; text-align: center; }
+section { break-inside: avoid; }
+li { list-style-type: none; text-align: left; }
+ul { padding-inline-start: 0; display: flex; flex-flow: column; align-items: start; }
+s { text-decoration: none; font-size: 2rem; line-height: .8; vertical-align: bottom; } /* dices */
+table { width: 100%; border-spacing: 0; border-collapse: collapse; border-style: hidden; page-break-inside: avoid; }
+td, th { border: 2px solid #444; padding: .5rem; text-align: center; }
+.choices th, .choices tr:nth-child(2) { font-weight: bold; }
+</style>
+<script>
+// On remplace les cellules du tableau par le contenu des divs correspondants
+let tbody = document.querySelector('.choices tbody')
+document.querySelectorAll('div').forEach(div => {
+    let className = div.classList[0]
+    if (!className || !className.startsWith('td')) return
+    let tdIndex = +className.charAt(2)
+    let row = tdIndex < 3 ? tbody.children[0] : tbody.children[2]
+    row.children[tdIndex % 3].innerHTML = div.innerHTML
+    div.parentNode.removeChild(div)
+})
+</script>
+</section>
+</body>
+</html>
