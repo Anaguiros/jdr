@@ -6,25 +6,25 @@
 </head>
 <body>
 <!--
-* Illus ?
-* Mention auteur & license
+- moins de choix ?
+- XP cerveau trop balèze
+- XP Squelette lui permet de faire des jets : capacité permet cumul des effets des menaces dans une pièce
+- modifier liens entres pièces
+- ré-allouer types d'emplacements ?
+
+* trouver illus
+* ajouter lien trad Fr
 * Inclure map Matt ?
-
-Questions:
-* Battements de cœur peuvent être dépensés n'importe quand ?
-* Salle du trésor gratuite ?
-
-Inspis : Crawl, Dungeon Keepers & Donjon Clefs en Main (page 58 pour générer des monstres)
 -->
 <section id="dungeon-hearts-heroes-spells">
 <h1>Dungeon Hearts : Heroes &amp; Spells</h1>
+<p>Ceci est une extension pour la version 1.6 du jeu de rôle monopage <a href="https://mare-baixa.itch.io/dungeon-heart">Dungeon Heart</a>.</p>
+<p>Pour plus de contexte je vous invite à lire <a href="https://chezsoi.org/lucas/blog/dungeon-heart.html">cet article de mon blog</a>.</p>
 <p>Cette extension requiert 1d12 (un dé à douze faces).</p>
-<p>Tout d’abord, voici un générateur d’aventuriers que je vous recommande : <a href="http://www.dmheroes.com">http://www.dmheroes.com</a></p>
 <p>Ensuite, voici le principe de cette extension : après le premier assaut d’aventuriers,
-un joueur au hasard lance un dé dans la table d’événements aléatoires ci-dessous,
-puis <strong>doit</strong> sélectionner une des options, si c’est possible et qu’il en reste.
-Chaque option ne peut être sélectionnée qu’une fois par<input type="checkbox" id="checkbox0"><label for="checkbox0">.</label>
-Après l’assaut suivant, c’est au joueur à sa gauche de lancer un dé dans cette table, et ainsi de suite.</p>
+les joueurs lancent chacun leur tour un dé dans la table d’événements aléatoires ci-dessous,
+puis <strong>doivent</strong> sélectionner une des options, si c’est possible et qu’il en reste.
+Chaque option ne peut être sélectionnée qu’une fois par<input type="checkbox" id="checkbox0"><label for="checkbox0">.</label></p>
 <p>Pour chaque capacité utilisable une seule fois par phase d’invasion,
 notez un bâton sur votre feuille lorsque vous l’employez, et barrez-le au début de la phase suivante.</p>
 <div class="choices">
@@ -137,6 +137,12 @@ Pour 3 autres XPs, vous pouvez désormais choisir <strong>3 options</strong> bon
 Pour 3 autres XPs, vos nouveaux pièges combinent désormais les <strong>3 types</strong>.</li>
 </ul>
 </div>
+<section id="licence-sources">
+<h3>Licence &amp; sources</h3>
+<p><a class="license" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License Attribution 4.0 International" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+Cette extension a été conçu par Lucas Cimon et est sous licence <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+<p>Si vous la testez, songez à me laisser un petit commentaire sur <a href="https://chezsoi.org">https://chezsoi.org</a></p>
+<p>Merci à Thomas, Henri &amp; Matthieu pour le playtest !</p>
 <style type="text/css">
 @font-face {
   font-family: AndadaRegular;
@@ -162,6 +168,7 @@ s { text-decoration: none; font-size: 2rem; line-height: .8; vertical-align: bot
 table { width: 100%; border-spacing: 0; border-collapse: collapse; border-style: hidden; page-break-inside: avoid; }
 td, th { border: 2px solid #444; padding: .5rem; text-align: center; }
 .choices th, .choices tr:nth-child(2) { font-weight: bold; }
+.license img { float: left; padding-right: .5rem; }
 </style>
 <script>
 // On remplace les cellules du tableau par le contenu des divs correspondants
@@ -175,6 +182,7 @@ document.querySelectorAll('div').forEach(div => {
     div.parentNode.removeChild(div)
 })
 </script>
+</section>
 </section>
 </body>
 </html>
