@@ -21,17 +21,58 @@ Envies des PJs: -> objectifs gagnés lorsque jauge papillon remplie ?
     Liberté de choix
     Être traité en égaux des hommes
     Vengeance
+Idées inspirées du manga Ghost In The Shell
+    camouflage optique fonctionne moins bien sous la pluie
+    orque-cyborg
+    vocabulaire militaro-cyber-futuriste -> en fournir un panel
+    "virus usurpateur d'identité couplé avec un génome"
+    hacking de corps en temps réels avec barrières défensives (pare-feu), contre-mesures automatisées, ghost-contrôleur...
+    tous les corps ont des inputs/outputs relativement compatible, et il est possible d'effectuer des "plongées" dedans
+    drones fuchikoma
+    techno-thriller
+    en terme de combats, les Chimères anticipent en général tous les mouvements de l'ennemi via leurs capteurs et leurs modules tactiques
+        elles ont X battements d'avance, puis à chaque échec de jet cet avantage peut diminuer à cause d'une complication / mouvement ennemi non anticipé
+        + combiner avec mesure tempo ? Adagio / Allegro / Presto ?
+Autres idées sur l'univers
+    alt au body-hacking, lors d'event récent: une équipe de cyb-hackers gouvernementaux a "simplement" hijacké la radio interne
+        d'une foule de personnes dans le personne, se basant sur leur profil psychologique issu des réseaux sociaux pour les manipuler /
+        faire pression sur eux, et en bénéficiant du réseau de caméras et de l'effet de mouton de masse, leur a fait prendre le contrôle
+        du gouvernement local
+    les ennemis que trackent l'org des PJs sont des cyberterroristes socialistes,
+        voyant dans le cyberespace à la fois un outil politique et un lieu sous contrôle d'aucun gouvernement,
+        ou une démocratie idéale peut être construite
 Idées de mise en page
     image de d8 + indiquer en préambule qu'il en faut pour jouer
     image de background
     zones textes arrondies et à l'opacité légèrement différente par rapport au fond
     traits reliants certaines caracs
+Idées pour website dédié
+    image avec des yeux rouges en fond se met à s'animer après 1min
+    lettre du texte se mettent à se déplacer pour former un mot au bout d'1min
 Proposer sur http://troplongpaslu.fr
+
+CC: https://www.deviantart.com/karbik/art/Connection-Lost-767305950
+CC: https://www.deviantart.com/teayaa/art/EoH-CONCEPT-ART-X-PHOTOBASHING-TEST-2017-770024035
+CC: https://www.deviantart.com/nicosaba/art/047838-636166426
+https://www.deviantart.com/nicosaba/art/Amarant-537482895
+https://www.deviantart.com/nicosaba/art/Lemurian-seed-536179176
+https://www.deviantart.com/nicosaba/art/Test-451555461
+https://www.deviantart.com/nicosaba/art/19084-392852934
+https://www.deviantart.com/nicosaba/art/%2D%2D252716701
+https://www.deviantart.com/zapdosify/art/Best-guns-in-the-business-733183585
+https://www.deviantart.com/loomingcolumn/art/Ying-Yang-Mentality-328736932
+https://www.deviantart.com/loomingcolumn/art/Vitality-VELJEBIV-BioMech-316975117
+
+Font: [CyberGotica](https://www.dafont.com/cibergotica.font?l[]=10&l[]=1)
 
 Inspis
 https://www.artstation.com/artwork/8d3Xm
 https://www.artstation.com/artwork/4LAnn
 https://www.artstation.com/artwork/Q0lEE
+
+https://fauux.neocities.org/headless.html
+
+https://www.flickr.com/photos/kk/6863477149/in/photolist-bsv7CV-7wedxQ-rZPzJ-BseS2w-7dEo14-brMxYR-r2P69j-89CBD5-VR7YA9-7dJfHq-btWZ2a-u6kWc-8p6RzJ-6VDYsQ-WVoyMF-3ojpK3-6ZTg2X-4ZspsG-7dEkJk-q6Mjxe-6VzTii-kBrLyc-q8Fe4q-51R9cp-bt6WCn-5Tv45h-7semtQ-4ZobpX-89CzJo-qMsJ3-8AaSq8-GJKbhb-4ZoasP-p3X3u2-aqF16r-qadTH4-4Jz86c-btXyZe-4Jz8uz-yby7V-VPpvom-8p6PWs-7wefrL-8p6Qdm-51VmEy-rkLpqE-btX5Dk-bsJFfe-pPnFHi-pSEGsJ/
 
 https://www.behance.net/gallery/57662329/Neurostealer
 
@@ -39,16 +80,24 @@ https://steamcommunity.com/app/464060/discussions/0/2765630416809926149/
 
 Neotokyo OST: https://www.youtube.com/watch?v=408tWOubRDM -> ou plutôt pour Dedale ?
 
+https://unsplash.com/photos/iO5z78REHhQ & https://unsplash.com/photos/TaY3ZSJig-U
+https://unsplash.com/collections/3436786/china-town-japanese
+
 rand cop from img/behance_platigeimage_cyberpunk_2077_cc-by-nc.jpg
+
+.web-only: https://giphy.com/gifs/loop-glitch-matrix-3oKIPlCroSFHV8uoko
+
+Insp / en fond sonore / visuel : les clips de Howie Lee
 -->
-# ![Logo papillon Chimera](img/Butterfly_Logo.jpg)
+# ![Logo papillon Chimera](img/Butterfly_Logo.jpg) Le vent nous portra
 ::: center-text
 _Dans ce jeu de rôle vous incarnez des animaux cybernétiques à l'intelligence augmentée, créés par l'homme pour accomplir ses basses oeuvres.
 Entrainés par l'armée, surarmés et dotés de camouflages tactiques.
 Plus performants que des drones, et sans scrupules humains.
 En théorie._
 
-Ces personnages sont inspirés des BDs [We3](https://en.wikipedia.org/wiki/We3) et [Idoles](https://www.bedetheque.com/serie-11587-BD-Idoles.html).
+Ces personnages sont inspirés des BDs [We3](https://en.wikipedia.org/wiki/We3), [Idoles](https://www.bedetheque.com/serie-11587-BD-Idoles.html)
+et _Ghost in The Shell_.
 :::
 
 ::::: grid
@@ -138,7 +187,6 @@ _Apparence_: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 - lunettes à vision thermique
 
 **Mouvements tactiques:** déplacement furtif - pénétrer dans une pièce en éliminant toute menace - parkour - sniper - tir de barrage
-</dl>
 :::
 
 ::: column-item-1-half cybanimal
@@ -297,7 +345,7 @@ cible éliminée, objectif atteind, menace écartée...
 ::::
 :::: grid-item
 #### Intro
-> Ok, l'enregistrement a démarré. Nous sommes le <date>.
+> Ok, l'enregistrement a démarré. Nous sommes le \<date\>.
 > Ceci est la première opération sur le terrain de l'unité tactique Chimera.
 > Soldat \_\_\_, êtes vous opérationnel ?
 > Êtes-vous prêt à accomplir votre mission, et à obéir scrupuleusement à mes ordres ?

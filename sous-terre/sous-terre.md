@@ -1,4 +1,12 @@
 <!--
+Illus ?
+- https://www.deviantart.com/fernand0fc/art/Plague-doctor-832945533?src=MC_deviation_stack
+- https://www.deviantart.com/fernand0fc/art/Adventurer-833681422?src=MC_deviation_stack
+
+Inviter Nico Laurenti à playtest
+
+Principe de la "table ouverte" ? -> https://ptgptb.fr/jouez-en-table-ouverte
+
 # RAF: définir MVP prochaine partie
 - fiche de PJ imprimable (talents imposés ?)
 - règles PNJs finies
@@ -11,6 +19,7 @@
 # RAF: mise en forme
 - pronoms à rendre + inclusifs
 - indiquer "confidentiel" sur les pages réservées au MJt
+- cacher un msg dans FP avec font https://www.fontspace.com/gutenberg-labo/gl-dancingmen
 
 # Playtest n°1 ~4h30
 * ++mystères & énigmes (ex: tapis de mousse collante)
@@ -37,7 +46,7 @@ et seulement 10min de préparation du MJ.
 
 ::: toc
 <!-- Pour mettre à jour ce sommaire:
-    markdown-toc --indent "    " --maxdepth 3 -i sous-terre.md
+    markdown-toc - -indent "    " - -maxdepth 3 -i sous-terre.md
 Certaines URLs génrées sont incompatibles avec celles produites par md2html, ex: puzzles-probl-mes-ouverts
 -->
 
@@ -78,17 +87,17 @@ Certaines URLs génrées sont incompatibles avec celles produites par md2html, e
 :::
 
 <!-- Not-CC, inspi seulement: -->
-<img class="no-max-width" src="img/surreal_valley_by_matchack_d5mjv2f-pre.jpg">
-<img src="img/DonatoGiancola_Cartographer.jpg">
-<img src="img/illus_descente.jpg"><!-- FROM: http://www.aka-games.fr -->
-<img src="img/big-bad-rat_by_scebiqu.jpg">
-<img class="no-max-width" src="img/237.jpg">
-<img class="no-max-width" src="img/244.jpg">
-<img class="no-max-width" src="img/242.jpg">
-<img class="no-max-width" src="img/238.jpg">
-<img class="no-max-width" src="img/247.jpg">
+<img alt="" class="no-max-width" src="img/surreal_valley_by_matchack_d5mjv2f-pre.jpg">
+<img alt="" src="img/DonatoGiancola_Cartographer.jpg">
+<img alt="" src="img/illus_descente.jpg"><!-- FROM: http://www.aka-games.fr -->
+<img alt="" src="img/big-bad-rat_by_scebiqu.jpg">
+<img alt="" class="no-max-width" src="img/237.jpg">
+<img alt="" class="no-max-width" src="img/244.jpg">
+<img alt="" class="no-max-width" src="img/242.jpg">
+<img alt="" class="no-max-width" src="img/238.jpg">
+<img alt="" class="no-max-width" src="img/247.jpg">
 <!-- ^ ALL ABOVE FROM: https://www.xboxlive.fr/news_affiche_7846.html -->
-<img class="no-max-width" src="img/Ancient-Egyptian-Hall-of-Records-Ancient-Code.jpg">
+<img alt="" class="no-max-width" src="img/Ancient-Egyptian-Hall-of-Records-Ancient-Code.jpg">
 
 #### Jeu de rôle ?
 Si vous ne connaissez pas encore ce type de jeu, commencez par lire [la définition du JdR de la FFJdR](http://www.ffjdr.org/ce-devez-savoir-jeu-role/definitions-du-jeu-role/)
@@ -233,6 +242,8 @@ ou simplement qu'il les chasse colériquement, ses paroles et actions suffiront 
 
 - **Peut orienter les PJs vers 1 indice** :
 
+- **Si la conversation tourne court avec les PJs, que ceux-ci ne savent pas quoi dire** :
+
 - **Connaissance de l'environnement** : 1 _move_ qu'il connait et quel les PJs pourront apprendre en l'observant (ex: gousses de pollen vert pour ralentir chutes)
 
 ### Objectif des PJs
@@ -266,7 +277,7 @@ puis choisissent 4 talents dans la liste ci-dessous.
 
 ::: character
 ### Le sub-cartographe
-<img src="img/yharnam_huntress_by_fernand0fc_dc6bxab-pre.jpg">
+<img alt="" src="img/yharnam_huntress_by_fernand0fc_dc6bxab-pre.jpg">
 
 #### Nom
 <hr>
@@ -295,7 +306,7 @@ gère la carte + sait comment réagir aux dangers
 
 ::: character
 ### L'archéo-magasinier
-<img src="img/a_huntress_by_fernand0fc_dbs9fh1-fullview.jpg">
+<img alt="" src="img/a_huntress_by_fernand0fc_dbs9fh1-fullview.jpg">
 
 #### Nom
 <hr>
@@ -329,7 +340,7 @@ Seul à savoir lire & écrire
 
 ::: character
 ### Le tempo-magus
-<img src="img/tribal_from_the_wasteland_by_fernand0fc_dc9dfo5-pre.jpg">
+<img alt="" src="img/tribal_from_the_wasteland_by_fernand0fc_dc9dfo5-pre.jpg">
 
 #### Nom
 <hr>
@@ -480,7 +491,7 @@ Fixé à la voûte d'une salle, abandonné, on peut y vivre que la gravité soit
 Temple à étages
 
 #### 9- La mer souterraine
-Sur chaque plage un rocher porte un symbole : <liste de symboles>
+Sur chaque plage un rocher porte un symbole : {liste de symboles}
 
 #### 10- La fourmilière
 
@@ -778,6 +789,7 @@ apparence (et où les trouver) x effet:
 :::
 
 flûte pour rats
+relique pour tempo-magus lui permettant de figer un objet dans le temps, pour le rérienter afin qu'il poursuive ensuite sa trajectoire <!-- inspi Zelda Breath of the wild -->
 
 ## En mode campaggne
 :::rule-focus
@@ -890,7 +902,7 @@ de supprimer certaines des leurs notes.
 <a class="license" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License Attribution 4.0 International" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 Ce jeu a été conçu par Lucas Cimon et est sous licence [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
 
-Si vous le testez, songez à me laisser un petit commentaire sur <https://chezsoi.org>
+Si vous le testez, songez à me laisser un petit commentaire sur <https://chezsoi.org/lucas/blog/tag/jdr.html>
 
 Merci à Estelle, Henri & Matthieu pour le playtest !
 
@@ -949,7 +961,7 @@ h1, h2, h3, h4 {
 }
 h1 {
   font-family: Odachi;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   margin: 2rem;
 }
